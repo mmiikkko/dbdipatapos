@@ -36,32 +36,24 @@ Module modDB
 
     Public Sub UpdateConnectionString()
         Try
-            Dim exFolder As String = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location)
-            Dim configFolder As String = Path.Combine(exFolder, "config_fold")
-            Dim config As String = Path.Combine(configFolder, "db_config.txt")
+            Dim config As String = System.IO.Directory.GetCurrentDirectory & "\db_config.txt"
             Dim text As String = Nothing
             If System.IO.File.Exists(config) Then
                 Using reader As System.IO.StreamReader = New System.IO.StreamReader(config)
+
                     text = reader.ReadToEnd
                 End Using
                 Dim arr_text() As String = Split(text, vbCrLf)
 
-                ' Debugging the read values
-                Console.WriteLine("Server: " & Split(arr_text(0), "=")(1))
-                Console.WriteLine("UID: " & Split(arr_text(1), "=")(1))
-                Console.WriteLine("Password: " & Split(arr_text(2), "=")(1))
-                Console.WriteLine("Database: " & Split(arr_text(3), "=")(1))
-
-                ' Updating connection string
-                strConnection = "server=" & Split(arr_text(0), "=")(1) & ";uid=" & Split(arr_text(1), "=")(1) &
-                               ";password=" & Split(arr_text(2), "=")(1) & ";database=" & Split(arr_text(3), "=")(1)
+                strConnection = "server=" & Split(arr_text(0), "=")(1) & ";uid=" & Split(arr_text(1), "=")(1) & ";password=" & Split(arr_text(2), "=")(1) & ";database=" & Split(arr_text(3), "=")(1) & ";" & "allowuservariables='True';"
             Else
-                MsgBox("Configuration file not found.", MsgBoxStyle.Critical)
+                MsgBox("Do not exist")
             End If
         Catch ex As Exception
             MsgBox(ex.Message, MsgBoxStyle.Critical)
         End Try
     End Sub
+
     Public Sub ConnectToDatabase()
         Try
             ' Call UpdateConnectionString() to update the connection string based on the config file
@@ -424,7 +416,7 @@ Module modDB
         Try
             openConn(db_name)
 
-            Dim query As String = "DELETE FROM useracc WHERE user_id = @user_id AND role = 'employee'"
+            Dim query As String = "DELETE FROM useracc WHERE user_id = @user_id AND role = 'employee'; COMMIT;"
             cmd = New MySqlCommand(query, conn)
             cmd.Parameters.AddWithValue("@user_id", userID)
 
@@ -453,7 +445,7 @@ Module modDB
             Dim user_id As Integer = CInt(cmd.LastInsertedId)
             ' Hash password before storing
             Dim account_query As String = "INSERT employees (user_id, employee_fname, employee_lname, employee_contact, employee_age, employee_sex, employee_city, employee_province, email, working_hours, shift)" &
-                "VALUES (@user_id, @employee_fname, @employee_lname, @employee_contact, @employee_age, @employee_sex, @employee_city, @employee_province, @email, @working_hours, @shift)"
+                "VALUES (@user_id, @employee_fname, @employee_lname, @employee_contact, @employee_age, @employee_sex, @employee_city, @employee_province, @email, @working_hours, @shift); COMMIT;"
 
             cmd = New MySqlCommand(account_query, conn)
             cmd.Parameters.AddWithValue("@user_id", user_id)
@@ -497,7 +489,7 @@ Module modDB
             ' Hash password before storing
             Dim account_query As String = "UPDATE employees SET employee_fname = @employee_fname, employee_lname = @employee_lname, employee_contact = @employee_contact, " &
                                           "employee_age = @employee_age, employee_city = @employee_city, employee_province = @employee_province, " &
-                                          "email = @email, working_hours = @working_hours, shift = @shift WHERE user_id = @user_id"
+                                          "email = @email, working_hours = @working_hours, shift = @shift WHERE user_id = @user_id; COMMIT;"
 
             cmd = New MySqlCommand(account_query, conn)
             cmd.Parameters.AddWithValue("@user_id", user_id)
@@ -651,7 +643,10 @@ Module modDB
             openConn(db_name)
             Dim query As String = "INSERT INTO customer (customer_fname, customer_minitial, customer_lname, customer_sex, customer_contact, customer_city, customer_province, postal_code) " &
                               "VALUES (@customer_fname, @customer_minitial, @customer_lname, @customer_sex, @customer_contact, @customer_city, @customer_province, @postal_code); " &
-                              "SELECT LAST_INSERT_ID();"
+                              "SELECT LAST_INSERT_ID();
+                              COMMIT;"
+
+
             Using cmd As New MySqlCommand(query, conn)
                 cmd.Parameters.AddWithValue("@customer_fname", customer_fname)
                 cmd.Parameters.AddWithValue("@customer_lname", customer_lname)
@@ -681,7 +676,8 @@ Module modDB
         Try
             openConn(db_name)
             Dim query As String = "INSERT INTO inventory (item_name, item_brand, restock_quantity, item_price, item_cost, restock_date, status) " &
-                              "VALUES (@item_name, @item_brand, @restock_quantity, @item_price, @item_cost, @restock_date, @status) "
+                              "VALUES (@item_name, @item_brand, @restock_quantity, @item_price, @item_cost, @restock_date, @status);
+                                COMMIT;"
             Using cmd As New MySqlCommand(query, conn)
                 cmd.Parameters.AddWithValue("@item_name", item_name)
                 cmd.Parameters.AddWithValue("@item_brand", item_brand)
@@ -717,7 +713,9 @@ Module modDB
         Try
             openConn(db_name)
             Dim query As String = "UPDATE inventory SET item_name = @item_name, restock_quantity = @restock_quantity, item_brand = @item_brand, " &
-                "item_cost = @item_cost, item_price = @item_price, restock_date = @restock_date WHERE item_id = @item_id"
+                "item_cost = @item_cost, item_price = @item_price, restock_date = @restock_date WHERE item_id = @item_id;
+                COMMIT;"
+
 
             cmd = New MySqlCommand(query, conn)
             cmd.Parameters.AddWithValue("@item_id", item_id)
@@ -750,7 +748,7 @@ Module modDB
         Try
             openConn(db_name)
 
-            Dim query As String = "DELETE FROM inventory WHERE item_id = @item_id"
+            Dim query As String = "DELETE FROM inventory WHERE item_id = @item_id; COMMIT;  "
             cmd = New MySqlCommand(query, conn)
             cmd.Parameters.AddWithValue("@item_id", item_id)
             If cmd.ExecuteNonQuery() > 0 Then
@@ -776,7 +774,8 @@ Module modDB
         Try
             openConn(db_name)
             Dim query As String = "INSERT INTO service (service_category, service_name, service_fee, is_available, service_status, description) " &
-                              "VALUES (@service_category, @service_name, @service_fee, @is_available, @service_status, @description) "
+                              "VALUES (@service_category, @service_name, @service_fee, @is_available, @service_status, @description);
+                                COMMIT;"
             Using cmd As New MySqlCommand(query, conn)
                 cmd.Parameters.AddWithValue("@service_category", service_category)
                 cmd.Parameters.AddWithValue("@service_name", service_name)
@@ -812,7 +811,7 @@ Module modDB
         Try
             openConn(db_name)
             Dim query As String = "UPDATE service SET service_name = @service_name, service_category = @service_category, service_fee = @service_fee, " &
-                "is_available = @is_available, service_status = @service_status, description = @description WHERE service_id = @service_id"
+                "is_available = @is_available, service_status = @service_status, description = @description WHERE service_id = @service_id; COMMIT;"
 
             cmd = New MySqlCommand(query, conn)
             cmd.Parameters.AddWithValue("@service_id", service_id)
@@ -845,7 +844,7 @@ Module modDB
         Try
             openConn(db_name)
 
-            Dim query As String = "DELETE FROM service WHERE service_id = @service_id"
+            Dim query As String = "DELETE FROM service WHERE service_id = @service_id; COMMIT;"
             cmd = New MySqlCommand(query, conn)
             cmd.Parameters.AddWithValue("@service_id", item_id)
             If cmd.ExecuteNonQuery() > 0 Then
@@ -872,7 +871,9 @@ Module modDB
             openConn(db_name)
             Dim query As String = "INSERT INTO transactions (customer_id, user_id, payment_received, payment_method) " &
                               "VALUES (@customer_id, @user_id, @payment_received, @payment_method); " &
-                              "SELECT LAST_INSERT_ID();"
+                              "SELECT LAST_INSERT_ID();
+                              COMMIT;"
+
 
             Using cmd As New MySqlCommand(query, conn)
                 cmd.Parameters.AddWithValue("@customer_id", customer_id)
@@ -911,7 +912,9 @@ Module modDB
         Try
             openConn(db_name)
             Dim query As String = "INSERT INTO transactions_orders (transaction_id, user_id, quantity, item_id, note) " &
-                              "VALUES (@transaction_id, @user_id, @quantity, @item_id, @note) "
+                              "VALUES (@transaction_id, @user_id, @quantity, @item_id, @note);
+                              COMMIT;"
+
             Using cmd As New MySqlCommand(query, conn)
                 cmd.Parameters.AddWithValue("@transaction_id", transaction_id)
                 cmd.Parameters.AddWithValue("@user_id", user_id)
@@ -943,7 +946,9 @@ Module modDB
         Try
             openConn(db_name)
             Dim query As String = "INSERT INTO transactions_services (transaction_id, user_id, service_id, colored, load_weight,sub_total, note) " &
-                              "VALUES (@transaction_id, @user_id, @service_id, @colored, @load_weight, @sub_total, @note) "
+                              "VALUES (@transaction_id, @user_id, @service_id, @colored, @load_weight, @sub_total, @note);
+                              COMMIT;"
+
             Using cmd As New MySqlCommand(query, conn)
                 cmd.Parameters.AddWithValue("@transaction_id", transaction_id)
                 cmd.Parameters.AddWithValue("@user_id", user_id)

@@ -62,10 +62,10 @@ Public Class LoginPage
 
                 Console.WriteLine("Current Content: " & currentContent)
 
-                Dim newContent As String = "server= " & txtServer.Text & vbCrLf &
-                                            "uid= " & txtUserConfig.Text & vbCrLf &
-                                            "password= " & txtConfigPass.Text & vbCrLf &
-                                            "database= " & txtDatabase.Text
+                Dim newContent As String = "server=" & txtServer.Text & vbCrLf &
+                                            "uid=" & txtUserConfig.Text & vbCrLf &
+                                            "password=" & txtPasswordConfig.Text & vbCrLf &
+                                            "database=" & txtDatabase.Text
                 File.WriteAllText(filePath, newContent)
 
 

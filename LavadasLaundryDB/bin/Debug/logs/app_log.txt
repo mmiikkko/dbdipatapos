@@ -1283,3 +1283,42 @@
 28/05/2025 10:52:51 pm - Service fee retrieved: 200.00
 28/05/2025 10:52:51 pm - Service fee retrieved: 200.00
 28/05/2025 10:52:51 pm - Item price retrieved: 25.00
+29/05/2025 12:22:06 am - Admin ID retrieved: 2100001
+29/05/2025 12:22:06 am - Admin full name retrieved: Admin Account
+29/05/2025 12:36:58 am - Admin ID retrieved: 2100001
+29/05/2025 12:36:58 am - Admin full name retrieved: Admin Account
+29/05/2025 1:10:27 am - Admin ID retrieved: 2100001
+29/05/2025 1:10:27 am - Admin full name retrieved: Admin Account
+29/05/2025 1:17:31 am - Admin ID retrieved: 2100001
+29/05/2025 1:17:31 am - Admin full name retrieved: Admin Account
+29/05/2025 1:19:30 am - Admin ID retrieved: 2100001
+29/05/2025 1:19:30 am - Admin full name retrieved: Admin Account
+29/05/2025 1:22:57 am - Admin ID retrieved: 2100001
+29/05/2025 1:22:57 am - Admin full name retrieved: Admin Account
+29/05/2025 2:08:15 am - Admin ID retrieved: 2100001
+29/05/2025 2:08:15 am - Admin full name retrieved: Admin Account
+29/05/2025 2:18:45 am - Admin ID retrieved: 2100001
+29/05/2025 2:18:46 am - Admin full name retrieved: Admin Account
+29/05/2025 2:19:09 am - Service Sample inserted successfully.
+29/05/2025 2:31:56 am - Admin ID retrieved: 2100001
+29/05/2025 2:31:56 am - Admin full name retrieved: Admin Account
+29/05/2025 2:32:12 am - Service data updated successfully for item 21100013
+29/05/2025 2:33:37 am - Service fee retrieved: 150.00
+29/05/2025 2:33:37 am - Service fee retrieved: 150.00
+29/05/2025 2:33:37 am - Item price retrieved: 25.00
+29/05/2025 2:34:25 am - New customer inserted with ID: 11100066
+29/05/2025 2:34:25 am - Transaction inserted successfully with ID: 33300049
+29/05/2025 2:34:25 am - Service fee retrieved: 150.00
+29/05/2025 2:34:25 am - Service ID retrieved: 21100002
+29/05/2025 2:34:25 am - Transaction Service Wash, Dry, Fold inserted successfully.
+29/05/2025 2:35:54 am - Service fee retrieved: 150.00
+29/05/2025 2:35:55 am - Service fee retrieved: 150.00
+29/05/2025 2:35:55 am - Item price retrieved: 20.00
+29/05/2025 2:35:55 am - Item price retrieved: 15.00
+29/05/2025 2:36:17 am - New customer inserted with ID: 11100067
+29/05/2025 2:36:18 am - Transaction inserted successfully with ID: 33300050
+29/05/2025 2:36:18 am - Service fee retrieved: 150.00
+29/05/2025 2:36:18 am - Service ID retrieved: 21100002
+29/05/2025 2:36:18 am - Transaction Service Wash, Dry, Fold inserted successfully.
+29/05/2025 2:36:19 am - Item ID retrieved: 22100024
+29/05/2025 2:36:19 am - Order Ariel/Breeze/Tide inserted successfully.
