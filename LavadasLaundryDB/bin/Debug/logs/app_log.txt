@@ -1,0 +1,1285 @@
+12/05/2025 3:18:56 pm - User account inserted successfully for sample
+12/05/2025 3:18:58 pm - User account inserted successfully for sagasaf afsfas
+12/05/2025 3:21:29 pm - User account inserted successfully for asdasd
+12/05/2025 3:21:32 pm - User account inserted successfully for asdasd sdasd
+12/05/2025 6:58:51 pm - User data updated successfully for updated
+12/05/2025 6:58:51 pm - User account inserted successfully for another guy
+12/05/2025 7:03:35 pm - User account inserted successfully for asdasd updated
+12/05/2025 7:04:33 pm - User data updated successfully for newacc
+12/05/2025 7:04:33 pm - User account inserted successfully for asdasd updated
+12/05/2025 7:12:09 pm - User account inserted successfully for test
+12/05/2025 7:12:10 pm - User account inserted successfully for try ryt
+12/05/2025 7:22:47 pm - User data updated successfully for inupdate
+12/05/2025 7:22:47 pm - User account inserted successfully for another guy
+12/05/2025 7:28:24 pm - User account inserted successfully for sagasaf afsfas
+12/05/2025 7:33:59 pm - User account inserted successfully for try ryt
+12/05/2025 8:25:00 pm - User account inserted successfully for another guy
+12/05/2025 9:01:08 pm - User data updated successfully for update
+12/05/2025 9:01:08 pm - User account inserted successfully for another guy
+12/05/2025 9:26:48 pm - User account inserted successfully for sagasaf afsfas
+12/05/2025 9:27:25 pm - User data updated successfully for accc
+12/05/2025 9:27:25 pm - User account inserted successfully for asdasd updated
+12/05/2025 9:42:10 pm - User account inserted successfully for asdasd updated
+12/05/2025 9:43:38 pm - User data updated successfully for change
+12/05/2025 9:43:38 pm - User account inserted successfully for asdasd updated
+12/05/2025 9:47:08 pm - User data updated successfully for acac
+12/05/2025 9:47:08 pm - User account inserted successfully for another guy
+12/05/2025 11:51:59 pm - Employee account deleted successfully for 10000007
+12/05/2025 11:53:24 pm - Employee account deleted successfully for 10000005
+13/05/2025 10:42:26 am - Error inserting item: Out of range value for column 'item_id' at row 1
+13/05/2025 10:42:34 am - Error inserting item: Out of range value for column 'item_id' at row 1
+13/05/2025 10:45:21 am - Error inserting item: Out of range value for column 'item_id' at row 1
+13/05/2025 10:45:42 am - Error inserting item: Out of range value for column 'item_id' at row 1
+13/05/2025 12:24:20 pm - Item Detergent inserted successfully.
+13/05/2025 12:27:00 pm - Employee account deleted successfully for 10000003
+13/05/2025 12:27:03 pm - No employee account found to delete for 10000003
+13/05/2025 12:27:15 pm - Employee account deleted successfully for 10000004
+13/05/2025 12:27:20 pm - Employee account deleted successfully for 10000006
+13/05/2025 12:27:28 pm - Employee account deleted successfully for 10000008
+13/05/2025 12:41:10 pm - User account inserted successfully for sample
+13/05/2025 12:41:11 pm - User account inserted successfully for sample sample
+13/05/2025 12:42:14 pm - Employee account deleted successfully for 10000009
+13/05/2025 7:29:43 pm - Item Liquid Detergent inserted successfully.
+13/05/2025 8:23:07 pm - Error inserting item: Fatal error encountered during command execution
+13/05/2025 8:27:17 pm - Item Plastic bags inserted successfully.
+13/05/2025 8:30:30 pm - Item Plastic bags inserted successfully.
+13/05/2025 8:30:49 pm - Item Fabric conditioner inserted successfully.
+13/05/2025 8:39:55 pm - Error deleting item: Fatal error encountered during command execution
+13/05/2025 8:46:00 pm - Error deleting item: Fatal error encountered during command execution
+13/05/2025 8:53:57 pm - Error deleting item: Fatal error encountered during command execution
+13/05/2025 8:55:38 pm - Item deleted successfully for 22100008
+13/05/2025 9:55:02 pm - No records updated for item 22100007
+13/05/2025 9:55:13 pm - No records updated for item 22100007
+13/05/2025 9:55:35 pm - No records updated for item 22100010
+13/05/2025 9:56:23 pm - Item data updated successfully for item 22100007
+13/05/2025 9:57:01 pm - Item data updated successfully for item 22100010
+13/05/2025 9:59:48 pm - Item deleted successfully for 22100007
+13/05/2025 10:00:09 pm - Item Tissue inserted successfully.
+13/05/2025 11:01:50 pm - User ID found for username 'admin': 10000001
+13/05/2025 11:28:56 pm - Error: Unknown column 'date_created' in 'field list'
+13/05/2025 11:34:21 pm - Item data updated successfully for item 22100010
+13/05/2025 11:35:29 pm - Item data updated successfully for item 22100010
+13/05/2025 11:46:14 pm - Item data updated successfully for item 22100006
+13/05/2025 11:46:29 pm - Item deleted successfully for 22100011
+13/05/2025 11:54:03 pm - Item Bleach inserted successfully.
+13/05/2025 11:54:23 pm - Item data updated successfully for item 22100013
+13/05/2025 11:56:39 pm - Item data updated successfully for item 22100010
+14/05/2025 12:00:47 am - Item data updated successfully for item 22100010
+14/05/2025 12:02:37 am - Item data updated successfully for item 22100012
+14/05/2025 12:10:35 am - Item Bleach inserted successfully.
+14/05/2025 12:11:00 am - Error updating item data: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'item_brand = 'Clorox', item_cost = 23.00, item_price = 123.00, restock_date =...' at line 1
+14/05/2025 12:11:55 am - Item data updated successfully for item 22100012
+14/05/2025 12:12:04 am - Item deleted successfully for 22100014
+14/05/2025 12:44:59 am - Item Fabric conditioner inserted successfully.
+14/05/2025 1:26:04 am - Error inserting item: Fatal error encountered during command execution
+14/05/2025 1:27:56 am - Service Wash, Dry, Fold inserted successfully.
+14/05/2025 8:15:22 am - Service Comforters inserted successfully.
+14/05/2025 8:17:18 am - Item Gas inserted successfully.
+14/05/2025 8:18:35 am - Service Wash inserted successfully.
+14/05/2025 8:37:24 am - Service Random inserted successfully.
+14/05/2025 8:37:29 am - Service deleted successfully for 21100003
+14/05/2025 1:22:09 pm - Service data updated successfully for item 21100002
+14/05/2025 1:22:40 pm - Service data updated successfully for item 21100002
+14/05/2025 6:13:43 pm - Item Detergent inserted successfully.
+14/05/2025 6:14:31 pm - Service Wash, Dry, Fold inserted successfully.
+14/05/2025 6:14:51 pm - Service data updated successfully for item 21100004
+14/05/2025 6:15:06 pm - Service deleted successfully for 21100004
+14/05/2025 7:13:05 pm - Item data updated successfully for item 22100015
+14/05/2025 9:32:03 pm - User account inserted successfully for add
+14/05/2025 9:32:04 pm - User account inserted successfully for add add
+14/05/2025 9:40:12 pm - User account inserted successfully for random
+14/05/2025 9:40:12 pm - User account inserted successfully for random random
+14/05/2025 9:41:02 pm - User account inserted successfully for bawalparehopala
+14/05/2025 9:41:03 pm - User account inserted successfully for anothawan anothawan
+14/05/2025 10:44:52 pm - User data inserted successfully for sample
+14/05/2025 11:03:25 pm - User data inserted successfully for trial
+15/05/2025 12:17:25 am - Item Tissue inserted successfully.
+15/05/2025 12:17:47 am - Service Dry inserted successfully.
+15/05/2025 12:41:09 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:15 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:15 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:15 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:15 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:15 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:15 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:16 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:16 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:17 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:17 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:17 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:19 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:19 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:20 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:20 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:20 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:20 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:20 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:20 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:22 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:22 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:22 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:25 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:25 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:26 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:26 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:26 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:27 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:27 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:28 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:28 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:28 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 12:41:28 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 1:14:02 am - Error: No database selected
+15/05/2025 1:18:04 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 1:18:58 am - User account inserted successfully for 2123
+15/05/2025 1:19:00 am - User account inserted successfully for random random
+15/05/2025 1:19:10 am - Item Gas inserted successfully.
+15/05/2025 1:19:22 am - Service Wash, Dry, Fold inserted successfully.
+15/05/2025 1:22:11 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 1:22:12 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 1:22:12 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 1:22:13 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 1:23:20 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 1:24:08 am - Error inserting customer data: Fatal error encountered during command execution
+15/05/2025 1:30:37 am - Customer sample sample data inserted successfully.
+15/05/2025 1:35:12 am - Customer sample sample data inserted successfully.
+15/05/2025 2:11:28 am - Customer try try data inserted successfully.
+15/05/2025 2:11:32 am - Error retrieving customer ID: Fatal error encountered during command execution
+15/05/2025 2:12:12 am - Customer asd asd data inserted successfully.
+15/05/2025 2:12:14 am - Error retrieving customer ID: Fatal error encountered during command execution
+15/05/2025 2:15:38 am - Customer 123 asd data inserted successfully.
+15/05/2025 2:15:40 am - Error retrieving customer ID: Fatal error encountered during command execution
+15/05/2025 7:18:55 am - User account inserted successfully for add
+15/05/2025 7:18:56 am - User account inserted successfully for add add
+15/05/2025 7:27:46 am - User data inserted successfully for anotha
+15/05/2025 7:30:07 am - User data inserted successfully for test3
+15/05/2025 7:33:31 am - User data inserted successfully for register
+15/05/2025 7:34:22 am - User account inserted successfully for newemployee
+15/05/2025 7:34:23 am - User account inserted successfully for new new
+15/05/2025 9:10:18 am - Service New Service Name inserted successfully.
+15/05/2025 9:11:29 am - Service data updated successfully for item 21100002
+15/05/2025 9:38:34 am - Error loading transaction by ID: Unknown column 'admin_email' in 'field list'
+15/05/2025 9:56:28 am - Error loading transaction by ID: Unknown column 'admin_email' in 'field list'
+15/05/2025 11:32:16 am - Customer add add data inserted successfully.
+15/05/2025 11:32:18 am - Error retrieving customer ID: Fatal error encountered during command execution
+15/05/2025 12:03:58 pm - Customer asd dasd data inserted successfully.
+15/05/2025 12:10:13 pm - New customer inserted with ID: 11100012
+15/05/2025 12:16:56 pm - New customer inserted with ID: 11100013
+15/05/2025 12:17:00 pm - Error inserting transaction: Table 'lavadas.transaction' doesn't exist
+15/05/2025 12:17:56 pm - New customer inserted with ID: 11100014
+15/05/2025 12:17:56 pm - Transaction inserted successfully with ID: 1
+15/05/2025 12:31:15 pm - New customer inserted with ID: 11100015
+15/05/2025 12:31:15 pm - Transaction inserted successfully with ID: 33300002
+15/05/2025 1:04:04 pm - New customer inserted with ID: 11100016
+15/05/2025 1:04:04 pm - Transaction inserted successfully with ID: 33300003
+15/05/2025 1:04:04 pm - Service ID retrieved: 21100002
+15/05/2025 1:09:52 pm - Item deleted successfully for 22100005
+15/05/2025 1:09:59 pm - Item deleted successfully for 22100000
+15/05/2025 1:10:02 pm - Item deleted successfully for 22100006
+15/05/2025 1:10:07 pm - Item deleted successfully for 22100010
+15/05/2025 1:10:11 pm - Item deleted successfully for 22100012
+15/05/2025 1:10:15 pm - Item deleted successfully for 22100013
+15/05/2025 1:10:19 pm - Item deleted successfully for 22100015
+15/05/2025 1:10:22 pm - Item deleted successfully for 22100016
+15/05/2025 1:10:27 pm - Item deleted successfully for 22100017
+15/05/2025 1:10:31 pm - Item deleted successfully for 22100018
+15/05/2025 1:10:37 pm - Item deleted successfully for 22100019
+15/05/2025 1:11:23 pm - Item Gas inserted successfully.
+15/05/2025 1:12:04 pm - Item Gas inserted successfully.
+15/05/2025 1:12:30 pm - Item Gas inserted successfully.
+15/05/2025 1:12:56 pm - Item Gas inserted successfully.
+15/05/2025 1:13:52 pm - Item Detergent inserted successfully.
+15/05/2025 1:16:35 pm - Item data updated successfully for item 22100020
+15/05/2025 1:16:59 pm - Item data updated successfully for item 22100021
+15/05/2025 1:17:37 pm - Item deleted successfully for 22100023
+15/05/2025 1:17:41 pm - Item deleted successfully for 22100020
+15/05/2025 1:17:46 pm - Item deleted successfully for 22100021
+15/05/2025 1:17:50 pm - Item deleted successfully for 22100022
+15/05/2025 1:18:07 pm - Item data updated successfully for item 22100024
+15/05/2025 5:16:17 pm - Service data updated successfully for item 21100002
+15/05/2025 5:16:34 pm - Service data updated successfully for item 21100005
+15/05/2025 5:17:02 pm - Service data updated successfully for item 21100006
+15/05/2025 5:57:11 pm - Item Bleach inserted successfully.
+15/05/2025 7:56:29 pm - New customer inserted with ID: 11100017
+15/05/2025 7:56:29 pm - Transaction inserted successfully with ID: 33300004
+15/05/2025 7:57:30 pm - New customer inserted with ID: 11100018
+15/05/2025 7:57:30 pm - Transaction inserted successfully with ID: 33300005
+15/05/2025 7:57:47 pm - New customer inserted with ID: 11100019
+15/05/2025 7:57:47 pm - Transaction inserted successfully with ID: 33300006
+15/05/2025 7:57:47 pm - Service not found: Full Service - Comforters
+15/05/2025 7:57:47 pm - Service ID retrieved: 21100006
+15/05/2025 8:00:20 pm - New customer inserted with ID: 11100020
+15/05/2025 8:00:20 pm - Transaction inserted successfully with ID: 33300007
+15/05/2025 8:00:20 pm - Service not found: Full Service - Wash, Dry, Fold
+15/05/2025 8:00:20 pm - Service ID retrieved: 21100002
+15/05/2025 8:03:19 pm - New customer inserted with ID: 11100021
+15/05/2025 8:03:19 pm - Transaction inserted successfully with ID: 33300008
+15/05/2025 8:03:19 pm - Service not found: Self Service - Wash and Dry
+15/05/2025 8:03:19 pm - Service not found: Wash and Dry - Self Service
+15/05/2025 8:04:51 pm - Service Wash and Dry inserted successfully.
+15/05/2025 8:04:55 pm - New customer inserted with ID: 11100022
+15/05/2025 8:04:55 pm - Transaction inserted successfully with ID: 33300009
+15/05/2025 8:04:55 pm - Service not found: Self Service - Wash and Dry
+15/05/2025 8:04:55 pm - Service ID retrieved: 21100008
+15/05/2025 8:16:19 pm - New customer inserted with ID: 11100023
+15/05/2025 8:16:19 pm - Transaction inserted successfully with ID: 33300010
+15/05/2025 8:16:19 pm - Service ID retrieved: 150.00
+15/05/2025 8:16:19 pm - Service ID retrieved: 21100002
+15/05/2025 9:13:32 pm - Service not found: Self Service - Wash
+15/05/2025 9:13:32 pm - Service not found: Self Service - Dry
+15/05/2025 9:13:32 pm - Service not found: Self Service - Wash and Dry
+15/05/2025 9:13:32 pm - Service not found: Full Service - Comforters
+15/05/2025 9:13:32 pm - Service not found: Full Service - Wash, Dry, Fold
+15/05/2025 9:18:15 pm - Service not found: Self Service - Wash
+15/05/2025 9:18:15 pm - Service not found: Self Service - Dry
+15/05/2025 9:18:15 pm - Service not found: Self Service - Wash and Dry
+15/05/2025 9:18:15 pm - Service not found: Full Service - Comforters
+15/05/2025 9:18:15 pm - Service not found: Full Service - Wash, Dry, Fold
+15/05/2025 9:20:56 pm - Service not found: Wash - Self Service
+15/05/2025 9:20:56 pm - Service ID retrieved: 85.00
+15/05/2025 9:20:56 pm - Service ID retrieved: 140.00
+15/05/2025 9:20:56 pm - Service ID retrieved: 200.00
+15/05/2025 9:20:56 pm - Service ID retrieved: 150.00
+15/05/2025 9:30:39 pm - Service not found: Wash - Self Service
+15/05/2025 9:30:39 pm - Service ID retrieved: 85.00
+15/05/2025 9:30:39 pm - Service ID retrieved: 140.00
+15/05/2025 9:30:39 pm - Service ID retrieved: 200.00
+15/05/2025 9:30:39 pm - Service ID retrieved: 150.00
+15/05/2025 9:32:59 pm - Service not found: Wash - Self Service
+15/05/2025 9:32:59 pm - Service ID retrieved: 85.00
+15/05/2025 9:32:59 pm - Service ID retrieved: 140.00
+15/05/2025 9:32:59 pm - Service ID retrieved: 200.00
+15/05/2025 9:32:59 pm - Service ID retrieved: 150.00
+15/05/2025 9:33:30 pm - Service not found: Self Service - Wash
+15/05/2025 9:33:30 pm - Service not found: Self Service - Dry
+15/05/2025 9:33:30 pm - Service not found: Self Service - Wash and Dry
+15/05/2025 9:33:30 pm - Service not found: Full Service - Comforters
+15/05/2025 9:33:30 pm - Service not found: Full Service - Wash, Dry, Fold
+15/05/2025 10:23:53 pm - Service not found: Wash - Self Service
+15/05/2025 10:23:53 pm - Service ID retrieved: 85.00
+15/05/2025 10:23:53 pm - Service ID retrieved: 140.00
+15/05/2025 10:23:53 pm - Service ID retrieved: 200.00
+15/05/2025 10:23:53 pm - Service ID retrieved: 150.00
+15/05/2025 10:43:24 pm - Service not found: Wash - Self Service
+15/05/2025 10:43:24 pm - Service ID retrieved: 85.00
+15/05/2025 10:43:24 pm - Service ID retrieved: 140.00
+15/05/2025 10:43:24 pm - Service ID retrieved: 200.00
+15/05/2025 10:43:24 pm - Service ID retrieved: 150.00
+15/05/2025 10:44:47 pm - Service not found: Wash - Self Service
+15/05/2025 10:44:47 pm - Service ID retrieved: 85.00
+15/05/2025 10:44:47 pm - Service ID retrieved: 140.00
+15/05/2025 10:44:48 pm - Service ID retrieved: 200.00
+15/05/2025 10:44:48 pm - Service ID retrieved: 150.00
+15/05/2025 11:11:36 pm - Service not found: Wash - Self Service
+15/05/2025 11:11:36 pm - Service ID retrieved: 85.00
+15/05/2025 11:11:36 pm - Service ID retrieved: 140.00
+15/05/2025 11:11:36 pm - Service ID retrieved: 200.00
+15/05/2025 11:11:36 pm - Service ID retrieved: 150.00
+15/05/2025 11:14:29 pm - Service not found: Wash - Self Service
+15/05/2025 11:14:29 pm - Service ID retrieved: 85.00
+15/05/2025 11:14:29 pm - Service ID retrieved: 140.00
+15/05/2025 11:14:29 pm - Service ID retrieved: 200.00
+15/05/2025 11:14:29 pm - Service ID retrieved: 150.00
+15/05/2025 11:16:03 pm - Service not found: Wash - Self Service
+15/05/2025 11:16:03 pm - Service ID retrieved: 85.00
+15/05/2025 11:16:03 pm - Service ID retrieved: 140.00
+15/05/2025 11:16:03 pm - Service ID retrieved: 200.00
+15/05/2025 11:16:03 pm - Service ID retrieved: 150.00
+15/05/2025 11:16:25 pm - Employee account deleted successfully for 10000015
+15/05/2025 11:18:02 pm - Service not found: Wash - Self Service
+15/05/2025 11:18:02 pm - Service ID retrieved: 85.00
+15/05/2025 11:18:02 pm - Service ID retrieved: 140.00
+15/05/2025 11:18:02 pm - Service ID retrieved: 200.00
+15/05/2025 11:18:02 pm - Service ID retrieved: 150.00
+15/05/2025 11:29:13 pm - Service not found: Wash - Self Service
+15/05/2025 11:29:13 pm - Service ID retrieved: 85.00
+15/05/2025 11:29:13 pm - Service ID retrieved: 140.00
+15/05/2025 11:29:13 pm - Service ID retrieved: 200.00
+15/05/2025 11:29:13 pm - Service ID retrieved: 150.00
+15/05/2025 11:30:14 pm - Employee account deleted successfully for 10000012
+15/05/2025 11:31:27 pm - Service not found: Wash - Self Service
+15/05/2025 11:31:27 pm - Service ID retrieved: 85.00
+15/05/2025 11:31:27 pm - Service ID retrieved: 140.00
+15/05/2025 11:31:27 pm - Service ID retrieved: 200.00
+15/05/2025 11:31:27 pm - Service ID retrieved: 150.00
+16/05/2025 12:22:23 am - Service not found: Wash - Self Service
+16/05/2025 12:22:23 am - Service ID retrieved: 85.00
+16/05/2025 12:22:23 am - Service ID retrieved: 140.00
+16/05/2025 12:22:23 am - Service ID retrieved: 200.00
+16/05/2025 12:22:23 am - Service ID retrieved: 150.00
+16/05/2025 12:24:16 am - New customer inserted with ID: 11100024
+16/05/2025 12:24:16 am - Transaction inserted successfully with ID: 33300011
+16/05/2025 12:24:16 am - Service ID retrieved: 140.00
+16/05/2025 12:24:16 am - Service ID retrieved: 21100008
+16/05/2025 12:24:18 am - Error inserting transaction: Fatal error encountered during command execution
+16/05/2025 12:24:18 am - Error retrieving item ID: Fatal error encountered during command execution
+16/05/2025 12:24:21 am - Error inserting transaction order: Unknown column 'quantity' in 'field list'
+16/05/2025 12:24:24 am - Error retrieving item ID: Fatal error encountered during command execution
+16/05/2025 12:24:28 am - Error inserting transaction order: Unknown column 'quantity' in 'field list'
+16/05/2025 12:24:29 am - Error retrieving item ID: Fatal error encountered during command execution
+16/05/2025 12:24:31 am - Error inserting transaction order: Unknown column 'quantity' in 'field list'
+16/05/2025 12:24:32 am - Error retrieving item ID: Fatal error encountered during command execution
+16/05/2025 12:24:33 am - Error inserting transaction order: Unknown column 'quantity' in 'field list'
+16/05/2025 12:28:24 am - Service Wash inserted successfully.
+16/05/2025 4:30:31 am - Service ID retrieved: 55.00
+16/05/2025 4:30:31 am - Service ID retrieved: 85.00
+16/05/2025 4:30:31 am - Service ID retrieved: 140.00
+16/05/2025 4:30:31 am - Service ID retrieved: 200.00
+16/05/2025 4:30:31 am - Service ID retrieved: 150.00
+16/05/2025 4:32:08 am - User account inserted successfully for juandlcrz
+16/05/2025 4:32:10 am - User account inserted successfully for Juan Dela Cruz
+16/05/2025 4:33:04 am - Error inserting user data: Duplicate entry 'juandlcrz' for key 'user_name'
+16/05/2025 4:33:06 am - Error inserting user data: Cannot add or update a child row: a foreign key constraint fails (`lavadas`.`employees`, CONSTRAINT `employees_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `useracc` (`user_id`) ON DELETE CASCADE)
+16/05/2025 4:42:33 am - Service ID retrieved: 55.00
+16/05/2025 4:42:33 am - Service ID retrieved: 85.00
+16/05/2025 4:42:33 am - Service ID retrieved: 140.00
+16/05/2025 4:42:33 am - Service ID retrieved: 200.00
+16/05/2025 4:42:33 am - Service ID retrieved: 150.00
+16/05/2025 4:43:25 am - Error inserting user data: Duplicate entry 'juandlcrz' for key 'user_name'
+16/05/2025 4:43:36 am - Error inserting user data: Cannot add or update a child row: a foreign key constraint fails (`lavadas`.`employees`, CONSTRAINT `employees_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `useracc` (`user_id`) ON DELETE CASCADE)
+16/05/2025 4:44:54 am - User account inserted successfully for pdrpend123
+16/05/2025 4:44:57 am - User account inserted successfully for Pedro Penduco
+16/05/2025 4:45:07 am - Service ID retrieved: 55.00
+16/05/2025 4:45:07 am - Service ID retrieved: 85.00
+16/05/2025 4:45:07 am - Service ID retrieved: 140.00
+16/05/2025 4:45:07 am - Service ID retrieved: 200.00
+16/05/2025 4:45:07 am - Service ID retrieved: 150.00
+16/05/2025 4:46:24 am - Service ID retrieved: 55.00
+16/05/2025 4:46:24 am - Service ID retrieved: 85.00
+16/05/2025 4:46:24 am - Service ID retrieved: 140.00
+16/05/2025 4:46:24 am - Service ID retrieved: 200.00
+16/05/2025 4:46:24 am - Service ID retrieved: 150.00
+16/05/2025 5:10:36 am - Service ID retrieved: 55.00
+16/05/2025 5:10:36 am - Service ID retrieved: 85.00
+16/05/2025 5:10:36 am - Service ID retrieved: 140.00
+16/05/2025 5:10:36 am - Service ID retrieved: 200.00
+16/05/2025 5:10:36 am - Service ID retrieved: 150.00
+16/05/2025 5:10:52 am - Error loading transaction by ID: Unknown column 'admin_email' in 'field list'
+16/05/2025 5:12:24 am - New customer inserted with ID: 11100025
+16/05/2025 5:12:33 am - Error inserting transaction: Column count doesn't match value count at row 1
+16/05/2025 5:12:33 am - Service ID retrieved: 200.00
+16/05/2025 5:12:33 am - Service ID retrieved: 21100006
+16/05/2025 5:12:36 am - Error inserting transaction: Fatal error encountered during command execution
+16/05/2025 5:12:36 am - Error retrieving item ID: Fatal error encountered during command execution
+16/05/2025 5:12:42 am - Error inserting transaction order: Unknown column 'quantity' in 'field list'
+16/05/2025 5:13:24 am - Service ID retrieved: 55.00
+16/05/2025 5:13:24 am - Service ID retrieved: 85.00
+16/05/2025 5:13:24 am - Service ID retrieved: 140.00
+16/05/2025 5:13:24 am - Service ID retrieved: 200.00
+16/05/2025 5:13:24 am - Service ID retrieved: 150.00
+16/05/2025 5:14:06 am - New customer inserted with ID: 11100026
+16/05/2025 5:14:12 am - Error inserting transaction: Column count doesn't match value count at row 1
+16/05/2025 5:14:12 am - Service ID retrieved: 150.00
+16/05/2025 5:14:12 am - Service ID retrieved: 21100002
+16/05/2025 5:14:15 am - Error inserting transaction: Fatal error encountered during command execution
+16/05/2025 5:14:15 am - Error retrieving item ID: Fatal error encountered during command execution
+16/05/2025 5:14:28 am - Error inserting transaction order: Unknown column 'quantity' in 'field list'
+16/05/2025 5:24:34 am - Service ID retrieved: 55.00
+16/05/2025 5:24:34 am - Service ID retrieved: 85.00
+16/05/2025 5:24:34 am - Service ID retrieved: 140.00
+16/05/2025 5:24:34 am - Service ID retrieved: 200.00
+16/05/2025 5:24:34 am - Service ID retrieved: 150.00
+16/05/2025 5:25:35 am - New customer inserted with ID: 11100027
+16/05/2025 5:25:37 am - Error inserting transaction: Column count doesn't match value count at row 1
+16/05/2025 5:25:37 am - Service ID retrieved: 200.00
+16/05/2025 5:25:37 am - Service ID retrieved: 21100006
+16/05/2025 5:25:39 am - Error inserting transaction: Fatal error encountered during command execution
+16/05/2025 5:25:39 am - Error retrieving item ID: Fatal error encountered during command execution
+16/05/2025 5:25:59 am - Error inserting transaction order: Cannot add or update a child row: a foreign key constraint fails (`lavadas`.`transactions_orders`, CONSTRAINT `transactions_orders_ibfk_2` FOREIGN KEY (`transaction_id`) REFERENCES `transactions` (`transaction_id`) ON DELETE CASCADE)
+16/05/2025 5:32:52 am - Service ID retrieved: 55.00
+16/05/2025 5:32:52 am - Service ID retrieved: 85.00
+16/05/2025 5:32:52 am - Service ID retrieved: 140.00
+16/05/2025 5:32:52 am - Service ID retrieved: 200.00
+16/05/2025 5:32:52 am - Service ID retrieved: 150.00
+16/05/2025 5:33:32 am - New customer inserted with ID: 11100028
+16/05/2025 5:33:33 am - Error inserting transaction: Column count doesn't match value count at row 1
+16/05/2025 5:33:33 am - Service ID retrieved: 200.00
+16/05/2025 5:33:33 am - Service ID retrieved: 21100006
+16/05/2025 5:33:34 am - Error inserting transaction: Fatal error encountered during command execution
+16/05/2025 5:36:15 am - Service ID retrieved: 55.00
+16/05/2025 5:36:15 am - Service ID retrieved: 85.00
+16/05/2025 5:36:15 am - Service ID retrieved: 140.00
+16/05/2025 5:36:15 am - Service ID retrieved: 200.00
+16/05/2025 5:36:15 am - Service ID retrieved: 150.00
+16/05/2025 5:37:05 am - New customer inserted with ID: 11100029
+16/05/2025 5:37:05 am - Transaction inserted successfully with ID: 33300012
+16/05/2025 5:37:05 am - Service ID retrieved: 200.00
+16/05/2025 5:37:05 am - Service ID retrieved: 21100006
+16/05/2025 5:37:07 am - Error inserting transaction: Fatal error encountered during command execution
+16/05/2025 5:42:19 am - Service ID retrieved: 55.00
+16/05/2025 5:42:19 am - Service ID retrieved: 85.00
+16/05/2025 5:42:19 am - Service ID retrieved: 140.00
+16/05/2025 5:42:19 am - Service ID retrieved: 200.00
+16/05/2025 5:42:19 am - Service ID retrieved: 150.00
+16/05/2025 5:43:08 am - New customer inserted with ID: 11100030
+16/05/2025 5:43:08 am - Transaction inserted successfully with ID: 33300013
+16/05/2025 5:43:08 am - Service ID retrieved: 200.00
+16/05/2025 5:43:08 am - Service ID retrieved: 21100006
+16/05/2025 5:43:08 am - Transaction Service Comforters inserted successfully.
+16/05/2025 5:45:58 am - Service ID retrieved: 55.00
+16/05/2025 5:45:58 am - Service ID retrieved: 85.00
+16/05/2025 5:45:58 am - Service ID retrieved: 140.00
+16/05/2025 5:45:58 am - Service ID retrieved: 200.00
+16/05/2025 5:45:58 am - Service ID retrieved: 150.00
+16/05/2025 5:47:04 am - New customer inserted with ID: 11100031
+16/05/2025 5:47:04 am - Transaction inserted successfully with ID: 33300014
+16/05/2025 5:47:04 am - Service ID retrieved: 200.00
+16/05/2025 5:47:04 am - Service ID retrieved: 21100006
+16/05/2025 5:47:04 am - Transaction Service Comforters inserted successfully.
+16/05/2025 5:58:36 am - Service ID retrieved: 55.00
+16/05/2025 5:58:36 am - Service ID retrieved: 85.00
+16/05/2025 5:58:36 am - Service ID retrieved: 140.00
+16/05/2025 5:58:36 am - Service ID retrieved: 200.00
+16/05/2025 5:58:36 am - Service ID retrieved: 150.00
+16/05/2025 5:59:06 am - New customer inserted with ID: 11100032
+16/05/2025 5:59:06 am - Transaction inserted successfully with ID: 33300015
+16/05/2025 5:59:06 am - Service ID retrieved: 200.00
+16/05/2025 5:59:06 am - Service ID retrieved: 21100006
+16/05/2025 5:59:06 am - Transaction Service Comforters inserted successfully.
+16/05/2025 5:59:06 am - Error retrieving item ID: Fatal error encountered during command execution
+16/05/2025 5:59:13 am - Error inserting transaction order: Cannot add or update a child row: a foreign key constraint fails (`lavadas`.`transactions_orders`, CONSTRAINT `transactions_orders_ibfk_3` FOREIGN KEY (`item_id`) REFERENCES `inventory` (`item_id`) ON DELETE CASCADE)
+16/05/2025 6:01:19 am - Service ID retrieved: 55.00
+16/05/2025 6:01:19 am - Service ID retrieved: 85.00
+16/05/2025 6:01:19 am - Service ID retrieved: 140.00
+16/05/2025 6:01:19 am - Service ID retrieved: 200.00
+16/05/2025 6:01:19 am - Service ID retrieved: 150.00
+16/05/2025 6:01:45 am - New customer inserted with ID: 11100033
+16/05/2025 6:01:45 am - Transaction inserted successfully with ID: 33300016
+16/05/2025 6:01:45 am - Service ID retrieved: 200.00
+16/05/2025 6:01:45 am - Service ID retrieved: 21100006
+16/05/2025 6:01:45 am - Transaction Service Comforters inserted successfully.
+16/05/2025 6:01:45 am - Item not found: 
+16/05/2025 6:01:53 am - Error inserting transaction order: Cannot add or update a child row: a foreign key constraint fails (`lavadas`.`transactions_orders`, CONSTRAINT `transactions_orders_ibfk_3` FOREIGN KEY (`item_id`) REFERENCES `inventory` (`item_id`) ON DELETE CASCADE)
+16/05/2025 6:04:48 am - Service ID retrieved: 55.00
+16/05/2025 6:04:48 am - Service ID retrieved: 85.00
+16/05/2025 6:04:48 am - Service ID retrieved: 140.00
+16/05/2025 6:04:48 am - Service ID retrieved: 200.00
+16/05/2025 6:04:48 am - Service ID retrieved: 150.00
+16/05/2025 6:05:17 am - New customer inserted with ID: 11100034
+16/05/2025 6:05:17 am - Transaction inserted successfully with ID: 33300017
+16/05/2025 6:05:17 am - Service ID retrieved: 200.00
+16/05/2025 6:05:17 am - Service ID retrieved: 21100006
+16/05/2025 6:05:17 am - Transaction Service Comforters inserted successfully.
+16/05/2025 6:05:17 am - Item not found: 
+16/05/2025 6:05:19 am - Error inserting transaction order: Cannot add or update a child row: a foreign key constraint fails (`lavadas`.`transactions_orders`, CONSTRAINT `transactions_orders_ibfk_3` FOREIGN KEY (`item_id`) REFERENCES `inventory` (`item_id`) ON DELETE CASCADE)
+16/05/2025 6:06:01 am - Service ID retrieved: 55.00
+16/05/2025 6:06:01 am - Service ID retrieved: 85.00
+16/05/2025 6:06:01 am - Service ID retrieved: 140.00
+16/05/2025 6:06:01 am - Service ID retrieved: 200.00
+16/05/2025 6:06:01 am - Service ID retrieved: 150.00
+16/05/2025 6:06:36 am - New customer inserted with ID: 11100035
+16/05/2025 6:06:36 am - Transaction inserted successfully with ID: 33300018
+16/05/2025 6:06:36 am - Service ID retrieved: 200.00
+16/05/2025 6:06:36 am - Service ID retrieved: 21100006
+16/05/2025 6:06:36 am - Transaction Service Comforters inserted successfully.
+16/05/2025 6:06:36 am - Item ID retrieved: 22100024
+16/05/2025 6:06:36 am - Order Ariel/Breeze/Tide inserted successfully.
+16/05/2025 6:07:24 am - New customer inserted with ID: 11100036
+16/05/2025 6:07:24 am - Transaction inserted successfully with ID: 33300019
+16/05/2025 6:07:24 am - Service ID retrieved: 200.00
+16/05/2025 6:07:24 am - Service ID retrieved: 21100006
+16/05/2025 6:07:24 am - Transaction Service Comforters inserted successfully.
+16/05/2025 6:07:24 am - Item ID retrieved: 22100024
+16/05/2025 6:07:24 am - Order Ariel/Breeze/Tide inserted successfully.
+16/05/2025 6:07:26 am - Item ID retrieved: 22100025
+16/05/2025 6:07:26 am - Order Regular Bleach inserted successfully.
+16/05/2025 6:07:27 am - Item ID retrieved: 22100025
+16/05/2025 6:07:31 am - Error inserting transaction order: Duplicate entry '33300019-22100025' for key 'PRIMARY'
+16/05/2025 6:07:32 am - Item not found: 
+16/05/2025 6:07:34 am - Error inserting transaction order: Cannot add or update a child row: a foreign key constraint fails (`lavadas`.`transactions_orders`, CONSTRAINT `transactions_orders_ibfk_3` FOREIGN KEY (`item_id`) REFERENCES `inventory` (`item_id`) ON DELETE CASCADE)
+16/05/2025 6:08:25 am - Service ID retrieved: 55.00
+16/05/2025 6:08:25 am - Service ID retrieved: 85.00
+16/05/2025 6:08:25 am - Service ID retrieved: 140.00
+16/05/2025 6:08:25 am - Service ID retrieved: 200.00
+16/05/2025 6:08:25 am - Service ID retrieved: 150.00
+16/05/2025 6:09:30 am - Error inserting item: Can't update table 'inventory' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+16/05/2025 6:14:06 am - Item Fabric conditioner inserted successfully.
+16/05/2025 6:14:30 am - Item data updated successfully for item 22100024
+16/05/2025 6:16:39 am - Service ID retrieved: 55.00
+16/05/2025 6:16:39 am - Service ID retrieved: 85.00
+16/05/2025 6:16:39 am - Service ID retrieved: 140.00
+16/05/2025 6:16:39 am - Service ID retrieved: 200.00
+16/05/2025 6:16:39 am - Service ID retrieved: 150.00
+16/05/2025 6:39:39 am - User data inserted successfully for new
+16/05/2025 6:39:39 am - User ID retrieved for: new
+16/05/2025 6:39:39 am - First admin data inserted successfully for user ID: 10000025
+16/05/2025 6:41:49 am - Service ID retrieved: 55.00
+16/05/2025 6:41:49 am - Service ID retrieved: 85.00
+16/05/2025 6:41:49 am - Service ID retrieved: 140.00
+16/05/2025 6:41:49 am - Service ID retrieved: 200.00
+16/05/2025 6:41:49 am - Service ID retrieved: 150.00
+16/05/2025 6:42:27 am - Service ID retrieved: 55.00
+16/05/2025 6:42:27 am - Service ID retrieved: 85.00
+16/05/2025 6:42:27 am - Service ID retrieved: 140.00
+16/05/2025 6:42:27 am - Service ID retrieved: 200.00
+16/05/2025 6:42:27 am - Service ID retrieved: 150.00
+16/05/2025 7:33:21 am - Service ID retrieved: 55.00
+16/05/2025 7:33:21 am - Service ID retrieved: 85.00
+16/05/2025 7:33:21 am - Service ID retrieved: 140.00
+16/05/2025 7:33:21 am - Service ID retrieved: 200.00
+16/05/2025 7:33:21 am - Service ID retrieved: 150.00
+16/05/2025 7:35:49 am - Service ID retrieved: 55.00
+16/05/2025 7:35:49 am - Service ID retrieved: 85.00
+16/05/2025 7:35:49 am - Service ID retrieved: 140.00
+16/05/2025 7:35:49 am - Service ID retrieved: 200.00
+16/05/2025 7:35:49 am - Service ID retrieved: 150.00
+16/05/2025 7:59:28 am - Service ID retrieved: 55.00
+16/05/2025 7:59:28 am - Service ID retrieved: 85.00
+16/05/2025 7:59:28 am - Service ID retrieved: 140.00
+16/05/2025 7:59:28 am - Service ID retrieved: 200.00
+16/05/2025 7:59:28 am - Service ID retrieved: 150.00
+16/05/2025 8:00:14 am - Service ID retrieved: 55.00
+16/05/2025 8:00:14 am - Service ID retrieved: 85.00
+16/05/2025 8:00:14 am - Service ID retrieved: 140.00
+16/05/2025 8:00:14 am - Service ID retrieved: 200.00
+16/05/2025 8:00:14 am - Service ID retrieved: 150.00
+16/05/2025 8:01:06 am - Service ID retrieved: 55.00
+16/05/2025 8:01:06 am - Service ID retrieved: 85.00
+16/05/2025 8:01:06 am - Service ID retrieved: 140.00
+16/05/2025 8:01:06 am - Service ID retrieved: 200.00
+16/05/2025 8:01:06 am - Service ID retrieved: 150.00
+16/05/2025 8:01:42 am - Service ID retrieved: 55.00
+16/05/2025 8:01:42 am - Service ID retrieved: 85.00
+16/05/2025 8:01:42 am - Service ID retrieved: 140.00
+16/05/2025 8:01:42 am - Service ID retrieved: 200.00
+16/05/2025 8:01:42 am - Service ID retrieved: 150.00
+16/05/2025 8:02:28 am - Service ID retrieved: 55.00
+16/05/2025 8:02:28 am - Service ID retrieved: 85.00
+16/05/2025 8:02:28 am - Service ID retrieved: 140.00
+16/05/2025 8:02:28 am - Service ID retrieved: 200.00
+16/05/2025 8:02:28 am - Service ID retrieved: 150.00
+16/05/2025 8:02:58 am - Service ID retrieved: 55.00
+16/05/2025 8:02:58 am - Service ID retrieved: 85.00
+16/05/2025 8:02:58 am - Service ID retrieved: 140.00
+16/05/2025 8:02:58 am - Service ID retrieved: 200.00
+16/05/2025 8:02:58 am - Service ID retrieved: 150.00
+16/05/2025 8:03:03 am - Error retrieving customer contact: Unknown column 'contact' in 'field list'
+16/05/2025 8:03:08 am - Error retrieving service details: Table 'lavadas.transaction_service' doesn't exist
+16/05/2025 8:04:23 am - Service ID retrieved: 55.00
+16/05/2025 8:04:23 am - Service ID retrieved: 85.00
+16/05/2025 8:04:23 am - Service ID retrieved: 140.00
+16/05/2025 8:04:23 am - Service ID retrieved: 200.00
+16/05/2025 8:04:23 am - Service ID retrieved: 150.00
+16/05/2025 8:07:31 am - Service ID retrieved: 55.00
+16/05/2025 8:07:31 am - Service ID retrieved: 85.00
+16/05/2025 8:07:31 am - Service ID retrieved: 140.00
+16/05/2025 8:07:31 am - Service ID retrieved: 200.00
+16/05/2025 8:07:31 am - Service ID retrieved: 150.00
+16/05/2025 8:10:00 am - Service ID retrieved: 55.00
+16/05/2025 8:10:00 am - Service ID retrieved: 85.00
+16/05/2025 8:10:00 am - Service ID retrieved: 140.00
+16/05/2025 8:10:00 am - Service ID retrieved: 200.00
+16/05/2025 8:10:00 am - Service ID retrieved: 150.00
+16/05/2025 8:31:37 am - Service ID retrieved: 55.00
+16/05/2025 8:31:37 am - Service ID retrieved: 85.00
+16/05/2025 8:31:37 am - Service ID retrieved: 140.00
+16/05/2025 8:31:37 am - Service ID retrieved: 200.00
+16/05/2025 8:31:37 am - Service ID retrieved: 150.00
+16/05/2025 8:54:54 am - Service ID retrieved: 55.00
+16/05/2025 8:54:54 am - Service ID retrieved: 85.00
+16/05/2025 8:54:54 am - Service ID retrieved: 140.00
+16/05/2025 8:54:54 am - Service ID retrieved: 200.00
+16/05/2025 8:54:54 am - Service ID retrieved: 150.00
+16/05/2025 8:56:31 am - Service ID retrieved: 55.00
+16/05/2025 8:56:31 am - Service ID retrieved: 85.00
+16/05/2025 8:56:31 am - Service ID retrieved: 140.00
+16/05/2025 8:56:31 am - Service ID retrieved: 200.00
+16/05/2025 8:56:31 am - Service ID retrieved: 150.00
+16/05/2025 8:58:08 am - Service ID retrieved: 55.00
+16/05/2025 8:58:08 am - Service ID retrieved: 85.00
+16/05/2025 8:58:08 am - Service ID retrieved: 140.00
+16/05/2025 8:58:08 am - Service ID retrieved: 200.00
+16/05/2025 8:58:08 am - Service ID retrieved: 150.00
+16/05/2025 8:59:24 am - Service ID retrieved: 55.00
+16/05/2025 8:59:24 am - Service ID retrieved: 85.00
+16/05/2025 8:59:24 am - Service ID retrieved: 140.00
+16/05/2025 8:59:24 am - Service ID retrieved: 200.00
+16/05/2025 8:59:24 am - Service ID retrieved: 150.00
+16/05/2025 9:00:08 am - Service ID retrieved: 55.00
+16/05/2025 9:00:08 am - Service ID retrieved: 85.00
+16/05/2025 9:00:08 am - Service ID retrieved: 140.00
+16/05/2025 9:00:08 am - Service ID retrieved: 200.00
+16/05/2025 9:00:08 am - Service ID retrieved: 150.00
+16/05/2025 9:01:12 am - New customer inserted with ID: 11100037
+16/05/2025 9:01:12 am - Transaction inserted successfully with ID: 33300020
+16/05/2025 9:01:12 am - Service ID retrieved: 150.00
+16/05/2025 9:01:12 am - Service ID retrieved: 21100002
+16/05/2025 9:01:16 am - Error inserting transaction: Table 'lavadas.services' doesn't exist
+16/05/2025 9:01:16 am - Item ID retrieved: 22100024
+16/05/2025 9:01:18 am - Error inserting transaction order: Column 'sub_total' cannot be null
+16/05/2025 9:01:19 am - Item ID retrieved: 22100025
+16/05/2025 9:01:22 am - Error inserting transaction order: Column 'sub_total' cannot be null
+16/05/2025 9:01:23 am - Item ID retrieved: 22100025
+16/05/2025 9:01:24 am - Error inserting transaction order: Column 'sub_total' cannot be null
+16/05/2025 9:01:27 am - Item not found: 
+16/05/2025 9:01:27 am - Error inserting transaction order: Column 'sub_total' cannot be null
+16/05/2025 9:05:07 am - Service fee retrieved: 55.00
+16/05/2025 9:05:07 am - Service fee retrieved: 85.00
+16/05/2025 9:05:07 am - Service fee retrieved: 140.00
+16/05/2025 9:05:07 am - Service fee retrieved: 200.00
+16/05/2025 9:05:07 am - Service fee retrieved: 150.00
+16/05/2025 9:06:10 am - New customer inserted with ID: 11100038
+16/05/2025 9:06:10 am - Transaction inserted successfully with ID: 33300021
+16/05/2025 9:06:10 am - Service fee retrieved: 200.00
+16/05/2025 9:06:10 am - Service ID retrieved: 21100006
+16/05/2025 9:06:13 am - Error inserting transaction: Unknown column 'price' in 'field list'
+16/05/2025 9:06:13 am - Item ID retrieved: 22100024
+16/05/2025 9:06:18 am - Error inserting transaction order: Column 'sub_total' cannot be null
+16/05/2025 9:06:19 am - Item ID retrieved: 22100025
+16/05/2025 9:06:20 am - Error inserting transaction order: Column 'sub_total' cannot be null
+16/05/2025 9:06:21 am - Item ID retrieved: 22100025
+16/05/2025 9:06:22 am - Error inserting transaction order: Column 'sub_total' cannot be null
+16/05/2025 9:06:22 am - Item not found: 
+16/05/2025 9:06:23 am - Error inserting transaction order: Column 'sub_total' cannot be null
+16/05/2025 9:26:45 am - Service fee retrieved: 55.00
+16/05/2025 9:26:45 am - Service fee retrieved: 85.00
+16/05/2025 9:26:45 am - Service fee retrieved: 140.00
+16/05/2025 9:26:45 am - Service fee retrieved: 200.00
+16/05/2025 9:26:45 am - Service fee retrieved: 150.00
+16/05/2025 9:27:26 am - New customer inserted with ID: 11100039
+16/05/2025 9:27:26 am - Transaction inserted successfully with ID: 33300022
+16/05/2025 9:27:26 am - Service fee retrieved: 150.00
+16/05/2025 9:27:26 am - Service ID retrieved: 21100002
+16/05/2025 9:27:28 am - Error inserting transaction: Unknown column 'price' in 'field list'
+16/05/2025 9:27:28 am - Item ID retrieved: 22100024
+16/05/2025 9:27:30 am - Error inserting transaction order: Column count doesn't match value count at row 1
+16/05/2025 9:27:30 am - Item ID retrieved: 22100025
+16/05/2025 9:27:31 am - Error inserting transaction order: Column count doesn't match value count at row 1
+16/05/2025 9:27:31 am - Item ID retrieved: 22100025
+16/05/2025 9:27:32 am - Error inserting transaction order: Column count doesn't match value count at row 1
+16/05/2025 9:27:32 am - Item not found: 
+16/05/2025 9:27:32 am - Error inserting transaction order: Column count doesn't match value count at row 1
+16/05/2025 9:35:53 am - Service fee retrieved: 55.00
+16/05/2025 9:35:53 am - Service fee retrieved: 85.00
+16/05/2025 9:35:53 am - Service fee retrieved: 140.00
+16/05/2025 9:35:53 am - Service fee retrieved: 200.00
+16/05/2025 9:35:53 am - Service fee retrieved: 150.00
+16/05/2025 9:36:26 am - New customer inserted with ID: 11100040
+16/05/2025 9:36:26 am - Transaction inserted successfully with ID: 33300023
+16/05/2025 9:36:26 am - Service fee retrieved: 150.00
+16/05/2025 9:36:26 am - Service ID retrieved: 21100002
+16/05/2025 9:36:29 am - Error inserting transaction: Unknown column 'total_amount' in 'field list'
+16/05/2025 9:36:29 am - Item ID retrieved: 22100024
+16/05/2025 9:36:32 am - Error inserting transaction order: Column count doesn't match value count at row 1
+16/05/2025 9:36:32 am - Item ID retrieved: 22100025
+16/05/2025 9:36:33 am - Error inserting transaction order: Column count doesn't match value count at row 1
+16/05/2025 9:36:33 am - Item ID retrieved: 22100025
+16/05/2025 9:36:34 am - Error inserting transaction order: Column count doesn't match value count at row 1
+16/05/2025 9:36:34 am - Item not found: 
+16/05/2025 9:36:34 am - Error inserting transaction order: Column count doesn't match value count at row 1
+16/05/2025 9:38:57 am - New customer inserted with ID: 11100041
+16/05/2025 9:38:57 am - Transaction inserted successfully with ID: 33300024
+16/05/2025 9:38:57 am - Service fee retrieved: 140.00
+16/05/2025 9:38:57 am - Service ID retrieved: 21100008
+16/05/2025 9:38:57 am - Transaction Service Wash and Dry inserted successfully.
+16/05/2025 9:38:57 am - Item ID retrieved: 22100024
+16/05/2025 9:39:01 am - Error inserting transaction order: Column count doesn't match value count at row 1
+16/05/2025 9:39:01 am - Item ID retrieved: 22100025
+16/05/2025 9:39:02 am - Error inserting transaction order: Column count doesn't match value count at row 1
+16/05/2025 9:39:02 am - Item ID retrieved: 22100025
+16/05/2025 9:39:02 am - Error inserting transaction order: Column count doesn't match value count at row 1
+16/05/2025 9:39:02 am - Item not found: 
+16/05/2025 9:39:02 am - Error inserting transaction order: Column count doesn't match value count at row 1
+16/05/2025 9:41:12 am - Service fee retrieved: 55.00
+16/05/2025 9:41:12 am - Service fee retrieved: 85.00
+16/05/2025 9:41:12 am - Service fee retrieved: 140.00
+16/05/2025 9:41:12 am - Service fee retrieved: 200.00
+16/05/2025 9:41:12 am - Service fee retrieved: 150.00
+16/05/2025 9:41:58 am - New customer inserted with ID: 11100042
+16/05/2025 9:41:58 am - Transaction inserted successfully with ID: 33300025
+16/05/2025 9:41:58 am - Service fee retrieved: 200.00
+16/05/2025 9:41:58 am - Service ID retrieved: 21100006
+16/05/2025 9:41:58 am - Transaction Service Comforters inserted successfully.
+16/05/2025 9:41:58 am - Item ID retrieved: 22100024
+16/05/2025 9:42:04 am - Error inserting transaction order: Table 'lavadas.transaction_orders' doesn't exist
+16/05/2025 9:42:04 am - Item ID retrieved: 22100025
+16/05/2025 9:42:05 am - Error inserting transaction order: Table 'lavadas.transaction_orders' doesn't exist
+16/05/2025 9:42:05 am - Item ID retrieved: 22100025
+16/05/2025 9:42:05 am - Error inserting transaction order: Table 'lavadas.transaction_orders' doesn't exist
+16/05/2025 9:42:05 am - Item not found: 
+16/05/2025 9:42:06 am - Error inserting transaction order: Cannot add or update a child row: a foreign key constraint fails (`lavadas`.`transactions_orders`, CONSTRAINT `transactions_orders_ibfk_3` FOREIGN KEY (`item_id`) REFERENCES `inventory` (`item_id`) ON DELETE CASCADE)
+16/05/2025 9:43:30 am - Service fee retrieved: 55.00
+16/05/2025 9:43:30 am - Service fee retrieved: 85.00
+16/05/2025 9:43:30 am - Service fee retrieved: 140.00
+16/05/2025 9:43:30 am - Service fee retrieved: 200.00
+16/05/2025 9:43:30 am - Service fee retrieved: 150.00
+16/05/2025 9:44:19 am - New customer inserted with ID: 11100043
+16/05/2025 9:44:19 am - Transaction inserted successfully with ID: 33300026
+16/05/2025 9:44:19 am - Service fee retrieved: 200.00
+16/05/2025 9:44:19 am - Service ID retrieved: 21100006
+16/05/2025 9:44:19 am - Transaction Service Comforters inserted successfully.
+16/05/2025 9:44:19 am - Item ID retrieved: 22100024
+16/05/2025 9:44:19 am - Order Ariel/Breeze/Tide inserted successfully.
+16/05/2025 9:44:21 am - Item ID retrieved: 22100025
+16/05/2025 9:44:21 am - Order Regular Bleach inserted successfully.
+16/05/2025 9:44:21 am - Item ID retrieved: 22100025
+16/05/2025 9:44:25 am - Error inserting transaction order: Duplicate entry '33300026-22100025' for key 'PRIMARY'
+16/05/2025 9:44:25 am - Item not found: 
+16/05/2025 9:44:32 am - Error inserting transaction order: Cannot add or update a child row: a foreign key constraint fails (`lavadas`.`transactions_orders`, CONSTRAINT `transactions_orders_ibfk_3` FOREIGN KEY (`item_id`) REFERENCES `inventory` (`item_id`) ON DELETE CASCADE)
+16/05/2025 9:52:11 am - Service fee retrieved: 55.00
+16/05/2025 9:52:11 am - Service fee retrieved: 85.00
+16/05/2025 9:52:11 am - Service fee retrieved: 140.00
+16/05/2025 9:52:11 am - Service fee retrieved: 200.00
+16/05/2025 9:52:11 am - Service fee retrieved: 150.00
+16/05/2025 9:52:32 am - Item data updated successfully for item 22100025
+16/05/2025 9:53:21 am - Item Colored Bleach inserted successfully.
+16/05/2025 9:56:37 am - Service fee retrieved: 55.00
+16/05/2025 9:56:37 am - Service fee retrieved: 85.00
+16/05/2025 9:56:37 am - Service fee retrieved: 140.00
+16/05/2025 9:56:37 am - Service fee retrieved: 200.00
+16/05/2025 9:56:37 am - Service fee retrieved: 150.00
+16/05/2025 9:58:03 am - New customer inserted with ID: 11100044
+16/05/2025 9:58:03 am - Transaction inserted successfully with ID: 33300027
+16/05/2025 9:58:03 am - Service fee retrieved: 200.00
+16/05/2025 9:58:03 am - Service ID retrieved: 21100006
+16/05/2025 9:58:03 am - Transaction Service Comforters inserted successfully.
+16/05/2025 9:58:03 am - Item ID retrieved: 22100024
+16/05/2025 9:58:03 am - Order Ariel/Breeze/Tide inserted successfully.
+16/05/2025 9:58:04 am - Item ID retrieved: 22100025
+16/05/2025 9:58:04 am - Order Regular Bleach inserted successfully.
+16/05/2025 9:58:05 am - Item ID retrieved: 22100028
+16/05/2025 9:58:05 am - Order Colored Safe Bleach inserted successfully.
+16/05/2025 9:58:05 am - Item not found: 
+16/05/2025 9:58:13 am - Error inserting transaction order: Cannot add or update a child row: a foreign key constraint fails (`lavadas`.`transactions_orders`, CONSTRAINT `transactions_orders_ibfk_3` FOREIGN KEY (`item_id`) REFERENCES `inventory` (`item_id`) ON DELETE CASCADE)
+16/05/2025 10:41:37 am - Service fee retrieved: 55.00
+16/05/2025 10:41:37 am - Service fee retrieved: 85.00
+16/05/2025 10:41:37 am - Service fee retrieved: 140.00
+16/05/2025 10:41:37 am - Service fee retrieved: 200.00
+16/05/2025 10:41:37 am - Service fee retrieved: 150.00
+16/05/2025 10:44:22 am - New customer inserted with ID: 11100045
+16/05/2025 10:44:22 am - Transaction inserted successfully with ID: 33300028
+16/05/2025 10:44:22 am - Service fee retrieved: 200.00
+16/05/2025 10:44:22 am - Service ID retrieved: 21100006
+16/05/2025 10:44:22 am - Transaction Service Comforters inserted successfully.
+16/05/2025 10:44:22 am - Item ID retrieved: 22100024
+16/05/2025 10:44:22 am - Order Ariel/Breeze/Tide inserted successfully.
+16/05/2025 10:47:24 am - Error loading transaction by ID: Unknown column 'admin_email' in 'field list'
+16/05/2025 10:47:43 am - Error updating user data: Fatal error encountered during command execution
+16/05/2025 10:51:28 am - Service fee retrieved: 55.00
+16/05/2025 10:51:28 am - Service fee retrieved: 85.00
+16/05/2025 10:51:28 am - Service fee retrieved: 140.00
+16/05/2025 10:51:28 am - Service fee retrieved: 200.00
+16/05/2025 10:51:28 am - Service fee retrieved: 150.00
+16/05/2025 10:51:44 am - Service fee retrieved: 55.00
+16/05/2025 10:51:44 am - Service fee retrieved: 85.00
+16/05/2025 10:51:44 am - Service fee retrieved: 140.00
+16/05/2025 10:51:44 am - Service fee retrieved: 200.00
+16/05/2025 10:51:44 am - Service fee retrieved: 150.00
+16/05/2025 10:53:02 am - User account inserted successfully for nigga
+16/05/2025 10:53:05 am - User account inserted successfully for Leinard Postrado
+16/05/2025 10:53:16 am - Service fee retrieved: 55.00
+16/05/2025 10:53:16 am - Service fee retrieved: 85.00
+16/05/2025 10:53:16 am - Service fee retrieved: 140.00
+16/05/2025 10:53:16 am - Service fee retrieved: 200.00
+16/05/2025 10:53:16 am - Service fee retrieved: 150.00
+16/05/2025 11:04:47 am - Service fee retrieved: 55.00
+16/05/2025 11:04:47 am - Service fee retrieved: 85.00
+16/05/2025 11:04:47 am - Service fee retrieved: 140.00
+16/05/2025 11:04:47 am - Service fee retrieved: 200.00
+16/05/2025 11:04:47 am - Service fee retrieved: 150.00
+16/05/2025 11:05:06 am - Service fee retrieved: 55.00
+16/05/2025 11:05:06 am - Service fee retrieved: 85.00
+16/05/2025 11:05:06 am - Service fee retrieved: 140.00
+16/05/2025 11:05:06 am - Service fee retrieved: 200.00
+16/05/2025 11:05:06 am - Service fee retrieved: 150.00
+16/05/2025 11:06:39 am - New customer inserted with ID: 11100046
+16/05/2025 11:06:39 am - Transaction inserted successfully with ID: 33300029
+16/05/2025 11:10:49 am - Service fee retrieved: 55.00
+16/05/2025 11:10:49 am - Service fee retrieved: 85.00
+16/05/2025 11:10:49 am - Service fee retrieved: 140.00
+16/05/2025 11:10:49 am - Service fee retrieved: 200.00
+16/05/2025 11:10:49 am - Service fee retrieved: 150.00
+16/05/2025 11:12:50 am - Service fee retrieved: 55.00
+16/05/2025 11:12:50 am - Service fee retrieved: 85.00
+16/05/2025 11:12:50 am - Service fee retrieved: 140.00
+16/05/2025 11:12:50 am - Service fee retrieved: 200.00
+16/05/2025 11:12:50 am - Service fee retrieved: 150.00
+16/05/2025 11:14:59 am - New customer inserted with ID: 11100047
+16/05/2025 11:14:59 am - Transaction inserted successfully with ID: 33300030
+16/05/2025 11:14:59 am - Service fee retrieved: 150.00
+16/05/2025 11:14:59 am - Service ID retrieved: 21100002
+16/05/2025 11:14:59 am - Transaction Service Wash, Dry, Fold inserted successfully.
+16/05/2025 11:50:48 am - Service fee retrieved: 55.00
+16/05/2025 11:50:48 am - Service fee retrieved: 85.00
+16/05/2025 11:50:48 am - Service fee retrieved: 140.00
+16/05/2025 11:50:48 am - Service fee retrieved: 200.00
+16/05/2025 11:50:48 am - Service fee retrieved: 150.00
+16/05/2025 11:52:08 am - Service fee retrieved: 55.00
+16/05/2025 11:52:08 am - Service fee retrieved: 85.00
+16/05/2025 11:52:08 am - Service fee retrieved: 140.00
+16/05/2025 11:52:08 am - Service fee retrieved: 200.00
+16/05/2025 11:52:08 am - Service fee retrieved: 150.00
+16/05/2025 11:52:28 am - Error retrieving user name: Unknown column 'cusomer_id' in 'where clause'
+16/05/2025 11:52:48 am - Error retrieving user name: Unknown column 'cusomer_id' in 'where clause'
+16/05/2025 11:54:40 am - Service fee retrieved: 55.00
+16/05/2025 11:54:40 am - Service fee retrieved: 85.00
+16/05/2025 11:54:40 am - Service fee retrieved: 140.00
+16/05/2025 11:54:40 am - Service fee retrieved: 200.00
+16/05/2025 11:54:40 am - Service fee retrieved: 150.00
+16/05/2025 11:56:53 am - Service fee retrieved: 55.00
+16/05/2025 11:56:53 am - Service fee retrieved: 85.00
+16/05/2025 11:56:53 am - Service fee retrieved: 140.00
+16/05/2025 11:56:53 am - Service fee retrieved: 200.00
+16/05/2025 11:56:53 am - Service fee retrieved: 150.00
+16/05/2025 12:36:43 pm - Service fee retrieved: 55.00
+16/05/2025 12:36:43 pm - Service fee retrieved: 85.00
+16/05/2025 12:36:43 pm - Service fee retrieved: 140.00
+16/05/2025 12:36:43 pm - Service fee retrieved: 200.00
+16/05/2025 12:36:43 pm - Service fee retrieved: 150.00
+16/05/2025 12:36:53 pm - Error retrieving user name: Unknown column 'cusomer_id' in 'where clause'
+16/05/2025 12:39:49 pm - Service fee retrieved: 55.00
+16/05/2025 12:39:49 pm - Service fee retrieved: 85.00
+16/05/2025 12:39:49 pm - Service fee retrieved: 140.00
+16/05/2025 12:39:49 pm - Service fee retrieved: 200.00
+16/05/2025 12:39:49 pm - Service fee retrieved: 150.00
+16/05/2025 12:40:00 pm - Error updating transaction data: Can't update table 'transactions' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+16/05/2025 1:55:32 pm - Service fee retrieved: 55.00
+16/05/2025 1:55:32 pm - Service fee retrieved: 85.00
+16/05/2025 1:55:32 pm - Service fee retrieved: 140.00
+16/05/2025 1:55:32 pm - Service fee retrieved: 200.00
+16/05/2025 1:55:32 pm - Service fee retrieved: 150.00
+16/05/2025 1:55:56 pm - Error loading transaction by ID: Unknown column 'admin_email' in 'field list'
+16/05/2025 1:56:11 pm - Error updating user data: Fatal error encountered during command execution
+16/05/2025 1:58:36 pm - Error loading transaction by ID: Unknown column 'admin_email' in 'field list'
+16/05/2025 1:59:16 pm - Error updating user data: Fatal error encountered during command execution
+16/05/2025 1:59:29 pm - Error loading transaction by ID: Unknown column 'admin_email' in 'field list'
+16/05/2025 1:59:33 pm - Error loading transaction by ID: Unknown column 'admin_email' in 'field list'
+16/05/2025 2:03:20 pm - Service fee retrieved: 55.00
+16/05/2025 2:03:20 pm - Service fee retrieved: 85.00
+16/05/2025 2:03:20 pm - Service fee retrieved: 140.00
+16/05/2025 2:03:20 pm - Service fee retrieved: 200.00
+16/05/2025 2:03:20 pm - Service fee retrieved: 150.00
+16/05/2025 2:04:47 pm - Service fee retrieved: 55.00
+16/05/2025 2:04:47 pm - Service fee retrieved: 85.00
+16/05/2025 2:04:47 pm - Service fee retrieved: 140.00
+16/05/2025 2:04:47 pm - Service fee retrieved: 200.00
+16/05/2025 2:04:47 pm - Service fee retrieved: 150.00
+16/05/2025 2:06:11 pm - Error updating user data: Fatal error encountered during command execution
+16/05/2025 2:25:21 pm - Service fee retrieved: 55.00
+16/05/2025 2:25:21 pm - Service fee retrieved: 85.00
+16/05/2025 2:25:21 pm - Service fee retrieved: 140.00
+16/05/2025 2:25:21 pm - Service fee retrieved: 200.00
+16/05/2025 2:25:21 pm - Service fee retrieved: 150.00
+16/05/2025 2:27:21 pm - New customer inserted with ID: 11100048
+16/05/2025 2:27:21 pm - Transaction inserted successfully with ID: 33300031
+16/05/2025 2:27:21 pm - Service fee retrieved: 200.00
+16/05/2025 2:27:21 pm - Service ID retrieved: 21100006
+16/05/2025 2:27:21 pm - Transaction Service Comforters inserted successfully.
+16/05/2025 2:27:21 pm - Item ID retrieved: 22100024
+16/05/2025 2:27:21 pm - Order Ariel/Breeze/Tide inserted successfully.
+16/05/2025 2:27:24 pm - Item ID retrieved: 22100025
+16/05/2025 2:27:24 pm - Order Regular Bleach inserted successfully.
+16/05/2025 2:27:25 pm - Item ID retrieved: 22100028
+16/05/2025 2:27:25 pm - Order Colored Safe Bleach inserted successfully.
+16/05/2025 2:27:26 pm - Item not found: 
+16/05/2025 2:27:27 pm - Error inserting transaction order: Cannot add or update a child row: a foreign key constraint fails (`lavadas`.`transactions_orders`, CONSTRAINT `transactions_orders_ibfk_3` FOREIGN KEY (`item_id`) REFERENCES `inventory` (`item_id`) ON DELETE CASCADE)
+16/05/2025 3:33:54 pm - Service fee retrieved: 55.00
+16/05/2025 3:33:54 pm - Service fee retrieved: 85.00
+16/05/2025 3:33:54 pm - Service fee retrieved: 140.00
+16/05/2025 3:33:54 pm - Service fee retrieved: 200.00
+16/05/2025 3:33:54 pm - Service fee retrieved: 150.00
+16/05/2025 4:21:18 pm - New customer inserted with ID: 11100049
+16/05/2025 4:21:18 pm - Transaction inserted successfully with ID: 33300032
+16/05/2025 4:21:18 pm - Service fee retrieved: 140.00
+16/05/2025 4:21:18 pm - Service ID retrieved: 21100008
+16/05/2025 4:21:18 pm - Transaction Service Wash and Dry inserted successfully.
+16/05/2025 4:21:18 pm - Item ID retrieved: 22100024
+16/05/2025 4:21:18 pm - Order Ariel/Breeze/Tide inserted successfully.
+16/05/2025 4:21:20 pm - Item ID retrieved: 22100025
+16/05/2025 4:21:20 pm - Order Regular Bleach inserted successfully.
+16/05/2025 4:21:20 pm - Item ID retrieved: 22100028
+16/05/2025 4:21:20 pm - Order Colored Safe Bleach inserted successfully.
+16/05/2025 4:22:12 pm - Error updating transaction data: Can't update table 'transactions' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+16/05/2025 4:24:06 pm - Error updating transaction data: Can't update table 'transactions' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+21/05/2025 5:11:36 pm - Service fee retrieved: 55.00
+21/05/2025 5:11:36 pm - Service fee retrieved: 85.00
+21/05/2025 5:11:36 pm - Service fee retrieved: 140.00
+21/05/2025 5:11:36 pm - Service fee retrieved: 200.00
+21/05/2025 5:11:36 pm - Service fee retrieved: 150.00
+21/05/2025 5:22:07 pm - Service fee retrieved: 55.00
+21/05/2025 5:22:07 pm - Service fee retrieved: 85.00
+21/05/2025 5:22:07 pm - Service fee retrieved: 140.00
+21/05/2025 5:22:07 pm - Service fee retrieved: 200.00
+21/05/2025 5:22:07 pm - Service fee retrieved: 150.00
+21/05/2025 5:26:20 pm - Service fee retrieved: 55.00
+21/05/2025 5:26:20 pm - Service fee retrieved: 85.00
+21/05/2025 5:26:20 pm - Service fee retrieved: 140.00
+21/05/2025 5:26:20 pm - Service fee retrieved: 200.00
+21/05/2025 5:26:20 pm - Service fee retrieved: 150.00
+21/05/2025 5:30:05 pm - Employee account deleted successfully for 10000026
+21/05/2025 5:48:30 pm - Service fee retrieved: 55.00
+21/05/2025 5:48:30 pm - Service fee retrieved: 85.00
+21/05/2025 5:48:30 pm - Service fee retrieved: 140.00
+21/05/2025 5:48:30 pm - Service fee retrieved: 200.00
+21/05/2025 5:48:30 pm - Service fee retrieved: 150.00
+21/05/2025 5:49:35 pm - Error updating transaction data: Can't update table 'transactions' in stored function/trigger because it is already used by statement which invoked this stored function/trigger
+21/05/2025 6:10:15 pm - Service fee retrieved: 55.00
+21/05/2025 6:10:15 pm - Service fee retrieved: 85.00
+21/05/2025 6:10:15 pm - Service fee retrieved: 140.00
+21/05/2025 6:10:15 pm - Service fee retrieved: 200.00
+21/05/2025 6:10:15 pm - Service fee retrieved: 150.00
+21/05/2025 6:12:43 pm - Transaction completed for: 33300032
+21/05/2025 6:19:56 pm - Service fee retrieved: 55.00
+21/05/2025 6:19:56 pm - Service fee retrieved: 85.00
+21/05/2025 6:19:56 pm - Service fee retrieved: 140.00
+21/05/2025 6:19:56 pm - Service fee retrieved: 200.00
+21/05/2025 6:19:56 pm - Service fee retrieved: 150.00
+21/05/2025 6:40:26 pm - Service fee retrieved: 55.00
+21/05/2025 6:40:26 pm - Service fee retrieved: 85.00
+21/05/2025 6:40:26 pm - Service fee retrieved: 140.00
+21/05/2025 6:40:26 pm - Service fee retrieved: 200.00
+21/05/2025 6:40:26 pm - Service fee retrieved: 150.00
+21/05/2025 6:40:26 pm - Service not found: Ariel/Breeze/Tide
+21/05/2025 6:40:26 pm - Item price retrieved: 234.00
+21/05/2025 6:40:26 pm - Service not found: Colored Safe Bleach
+21/05/2025 6:40:27 pm - Item price retrieved: 15.00
+21/05/2025 6:41:48 pm - Service fee retrieved: 55.00
+21/05/2025 6:41:48 pm - Service fee retrieved: 85.00
+21/05/2025 6:41:48 pm - Service fee retrieved: 140.00
+21/05/2025 6:41:48 pm - Service fee retrieved: 200.00
+21/05/2025 6:41:48 pm - Service fee retrieved: 150.00
+21/05/2025 6:41:48 pm - Item price retrieved: 20.00
+21/05/2025 6:41:48 pm - Item price retrieved: 234.00
+21/05/2025 6:41:48 pm - Item price retrieved: 25.00
+21/05/2025 6:41:48 pm - Item price retrieved: 15.00
+21/05/2025 6:53:48 pm - Item data updated successfully for item 22100025
+21/05/2025 6:58:38 pm - Service fee retrieved: 200.00
+21/05/2025 6:58:38 pm - Service fee retrieved: 200.00
+21/05/2025 6:58:38 pm - Item price retrieved: 20.00
+21/05/2025 6:58:39 pm - Item price retrieved: 15.00
+21/05/2025 6:58:39 pm - Item price retrieved: 25.00
+21/05/2025 6:58:39 pm - Item price retrieved: 15.00
+21/05/2025 6:59:11 pm - Item data updated successfully for item 22100025
+21/05/2025 6:59:27 pm - Service fee retrieved: 200.00
+21/05/2025 6:59:27 pm - Service fee retrieved: 200.00
+21/05/2025 6:59:27 pm - Item price retrieved: 20.00
+21/05/2025 6:59:27 pm - Item price retrieved: 16.00
+21/05/2025 6:59:27 pm - Item price retrieved: 25.00
+21/05/2025 6:59:27 pm - Item price retrieved: 15.00
+21/05/2025 7:01:33 pm - Service fee retrieved: 200.00
+21/05/2025 7:01:33 pm - Service fee retrieved: 200.00
+21/05/2025 7:01:33 pm - Item price retrieved: 20.00
+21/05/2025 7:01:33 pm - Item price retrieved: 16.00
+21/05/2025 7:02:09 pm - New customer inserted with ID: 11100050
+21/05/2025 7:02:09 pm - Transaction inserted successfully with ID: 33300033
+21/05/2025 7:02:09 pm - Service fee retrieved: 200.00
+21/05/2025 7:02:09 pm - Service ID retrieved: 21100006
+21/05/2025 7:02:09 pm - Transaction Service Comforters inserted successfully.
+21/05/2025 7:02:09 pm - Item ID retrieved: 22100024
+21/05/2025 7:02:09 pm - Order Ariel/Breeze/Tide inserted successfully.
+21/05/2025 7:02:10 pm - Item ID retrieved: 22100025
+21/05/2025 7:02:10 pm - Order Regular Bleach inserted successfully.
+21/05/2025 7:22:16 pm - Service fee retrieved: 200.00
+21/05/2025 7:22:16 pm - Service fee retrieved: 200.00
+21/05/2025 7:22:16 pm - Item price retrieved: 20.00
+21/05/2025 7:22:16 pm - Item price retrieved: 16.00
+21/05/2025 7:22:44 pm - New customer inserted with ID: 11100051
+21/05/2025 7:22:44 pm - Transaction inserted successfully with ID: 33300034
+21/05/2025 7:22:44 pm - Service fee retrieved: 200.00
+21/05/2025 7:22:44 pm - Service ID retrieved: 21100006
+21/05/2025 7:22:44 pm - Transaction Service Comforters inserted successfully.
+21/05/2025 7:22:44 pm - Item ID retrieved: 22100024
+21/05/2025 7:22:44 pm - Order Ariel/Breeze/Tide inserted successfully.
+21/05/2025 7:22:45 pm - Item ID retrieved: 22100025
+21/05/2025 7:22:45 pm - Order Regular Bleach inserted successfully.
+21/05/2025 7:23:22 pm - Transaction completed for: 33300034
+21/05/2025 7:28:59 pm - Transaction completed for: 33300024
+21/05/2025 7:31:02 pm - Service fee retrieved: 140.00
+21/05/2025 7:31:02 pm - Service fee retrieved: 140.00
+21/05/2025 7:31:02 pm - Item price retrieved: 20.00
+21/05/2025 7:31:02 pm - Item price retrieved: 25.00
+21/05/2025 7:31:02 pm - Item price retrieved: 15.00
+21/05/2025 7:31:28 pm - Service fee retrieved: 140.00
+21/05/2025 7:31:28 pm - Service fee retrieved: 140.00
+21/05/2025 7:31:28 pm - Item price retrieved: 20.00
+21/05/2025 7:31:28 pm - Item price retrieved: 25.00
+21/05/2025 7:31:28 pm - Item price retrieved: 15.00
+21/05/2025 7:32:13 pm - New customer inserted with ID: 11100052
+21/05/2025 7:32:13 pm - Transaction inserted successfully with ID: 33300035
+21/05/2025 7:32:13 pm - Service fee retrieved: 140.00
+21/05/2025 7:32:13 pm - Service ID retrieved: 21100008
+21/05/2025 7:32:13 pm - Transaction Service Wash and Dry inserted successfully.
+21/05/2025 7:32:13 pm - Item ID retrieved: 22100024
+21/05/2025 7:32:13 pm - Order Ariel/Breeze/Tide inserted successfully.
+21/05/2025 7:32:14 pm - Item not found: 
+21/05/2025 7:32:14 pm - Error inserting transaction order: Column 'sub_total' cannot be null
+21/05/2025 7:33:30 pm - Transaction completed for: 33300035
+21/05/2025 7:50:05 pm - Transaction completed for: 33300033
+21/05/2025 7:54:07 pm - Transaction completed for: 33300031
+21/05/2025 7:59:56 pm - Transaction completed for: 33300028
+21/05/2025 8:25:37 pm - Transaction cancelled for: 33300026
+21/05/2025 8:30:48 pm - Transaction cancelled for: 33300025
+21/05/2025 9:01:04 pm - User account inserted successfully for employee
+21/05/2025 9:01:06 pm - User account inserted successfully for Trial Trial
+21/05/2025 9:01:53 pm - Service fee retrieved: 150.00
+21/05/2025 9:01:53 pm - Service fee retrieved: 150.00
+21/05/2025 9:01:53 pm - Item price retrieved: 20.00
+21/05/2025 9:01:53 pm - Item price retrieved: 16.00
+21/05/2025 9:01:53 pm - Item price retrieved: 25.00
+21/05/2025 9:01:53 pm - Item price retrieved: 15.00
+21/05/2025 9:03:39 pm - New customer inserted with ID: 11100053
+21/05/2025 9:03:39 pm - Transaction inserted successfully with ID: 33300036
+21/05/2025 9:03:39 pm - Service fee retrieved: 150.00
+21/05/2025 9:03:39 pm - Service ID retrieved: 21100002
+21/05/2025 9:03:39 pm - Transaction Service Wash, Dry, Fold inserted successfully.
+21/05/2025 9:03:39 pm - Item ID retrieved: 22100024
+21/05/2025 9:03:39 pm - Order Ariel/Breeze/Tide inserted successfully.
+21/05/2025 9:03:40 pm - Item ID retrieved: 22100025
+21/05/2025 9:03:40 pm - Order Regular Bleach inserted successfully.
+21/05/2025 9:03:40 pm - Item ID retrieved: 22100028
+21/05/2025 9:03:40 pm - Order Colored Safe Bleach inserted successfully.
+21/05/2025 9:03:40 pm - Item ID retrieved: 22100027
+21/05/2025 9:03:40 pm - Order Fabric Conditioner inserted successfully.
+21/05/2025 9:26:25 pm - User account inserted successfully for ForDelete
+21/05/2025 9:26:27 pm - User account inserted successfully for ForDelete ForDelete
+21/05/2025 9:26:43 pm - Employee account deleted successfully for 10000028
+21/05/2025 9:44:54 pm - User account inserted successfully for tests
+21/05/2025 9:44:56 pm - User account inserted successfully for ForDelete ForDelete
+21/05/2025 9:45:50 pm - Service fee retrieved: 150.00
+21/05/2025 9:45:50 pm - Service fee retrieved: 150.00
+21/05/2025 9:45:50 pm - Item price retrieved: 25.00
+21/05/2025 9:45:50 pm - Item price retrieved: 15.00
+21/05/2025 9:46:21 pm - Service fee retrieved: 200.00
+21/05/2025 9:46:21 pm - Service fee retrieved: 200.00
+21/05/2025 9:46:21 pm - Item price retrieved: 25.00
+21/05/2025 9:46:21 pm - Item price retrieved: 15.00
+21/05/2025 10:16:11 pm - User account inserted successfully for try
+21/05/2025 10:16:13 pm - User account inserted successfully for try try
+21/05/2025 10:16:32 pm - Service fee retrieved: 200.00
+21/05/2025 10:16:32 pm - Service fee retrieved: 200.00
+21/05/2025 10:16:47 pm - New customer inserted with ID: 11100054
+21/05/2025 10:16:47 pm - Transaction inserted successfully with ID: 33300037
+21/05/2025 10:16:47 pm - Service fee retrieved: 200.00
+21/05/2025 10:16:47 pm - Service ID retrieved: 21100006
+21/05/2025 10:16:47 pm - Transaction Service Comforters inserted successfully.
+21/05/2025 10:17:31 pm - Employee account deleted successfully for 10000030
+22/05/2025 8:39:52 am - Transaction completed for: 33300037
+26/05/2025 3:35:47 pm - Service fee retrieved: 200.00
+26/05/2025 3:35:47 pm - Service fee retrieved: 200.00
+26/05/2025 3:35:47 pm - Item price retrieved: 20.00
+26/05/2025 3:35:47 pm - Item price retrieved: 16.00
+26/05/2025 3:35:47 pm - Item price retrieved: 25.00
+26/05/2025 3:35:47 pm - Item price retrieved: 15.00
+27/05/2025 7:20:00 am - Service fee retrieved: 200.00
+27/05/2025 7:20:00 am - Service fee retrieved: 200.00
+27/05/2025 7:20:00 am - Item price retrieved: 20.00
+27/05/2025 7:20:00 am - Item price retrieved: 15.00
+27/05/2025 7:23:00 am - User account inserted successfully for croco
+27/05/2025 7:23:02 am - User account inserted successfully for Bombardillo Crocodillo
+27/05/2025 7:33:49 am - Service data updated successfully for item 21100002
+27/05/2025 7:44:09 am - Error in GetMostTransactionFinished: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM employees
+            ) AS combined
+            ORDER BY transaction_c...' at line 4
+27/05/2025 7:45:04 am - Error in GetMostTransactionFinished: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM employees
+            ) AS combined
+            ORDER BY transactions_...' at line 4
+27/05/2025 7:48:51 am - Error in GetMostTransactionFinished: Table 'lavadas.admin' doesn't exist
+27/05/2025 8:19:52 am - Error in GetServiceTimesAvailed: Table 'lavadas.services' doesn't exist
+27/05/2025 8:23:03 am - Service data updated successfully for item 21100002
+27/05/2025 8:52:33 am - Error loading chart data: Unknown column 'ts.times_availed' in 'field list'
+27/05/2025 1:33:08 pm - Service fee retrieved: 200.00
+27/05/2025 1:33:08 pm - Service fee retrieved: 200.00
+27/05/2025 1:33:08 pm - Item price retrieved: 20.00
+27/05/2025 1:34:28 pm - New customer inserted with ID: 11100055
+27/05/2025 1:34:28 pm - Transaction inserted successfully with ID: 33300038
+27/05/2025 1:34:28 pm - Service fee retrieved: 200.00
+27/05/2025 1:34:28 pm - Service ID retrieved: 21100006
+27/05/2025 1:34:28 pm - Transaction Service Comforters inserted successfully.
+27/05/2025 1:34:28 pm - Item ID retrieved: 22100024
+27/05/2025 1:34:28 pm - Order Ariel/Breeze/Tide inserted successfully.
+27/05/2025 1:35:07 pm - Transaction cancelled for: 33300038
+27/05/2025 1:59:39 pm - Error loading chart data: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'to
+            INNER JOIN inventory i ON i.item_id = to.item_id
+           ...' at line 2
+27/05/2025 2:09:50 pm - Service data updated successfully for item 21100005
+27/05/2025 2:10:11 pm - Service data updated successfully for item 21100005
+28/05/2025 7:48:24 am - Service fee retrieved: 200.00
+28/05/2025 7:48:24 am - Service fee retrieved: 200.00
+28/05/2025 7:48:24 am - Item price retrieved: 20.00
+28/05/2025 7:48:54 am - Service fee retrieved: 150.00
+28/05/2025 7:48:54 am - Service fee retrieved: 150.00
+28/05/2025 7:48:54 am - Item price retrieved: 20.00
+28/05/2025 7:50:03 am - New customer inserted with ID: 11100056
+28/05/2025 7:50:03 am - Transaction inserted successfully with ID: 33300039
+28/05/2025 7:50:03 am - Service fee retrieved: 150.00
+28/05/2025 7:50:03 am - Service ID retrieved: 21100002
+28/05/2025 7:50:03 am - Transaction Service Wash, Dry, Fold inserted successfully.
+28/05/2025 7:50:03 am - Item ID retrieved: 22100024
+28/05/2025 7:50:03 am - Order Ariel/Breeze/Tide inserted successfully.
+28/05/2025 7:50:44 am - Transaction completed for: 33300039
+28/05/2025 7:58:02 am - Service fee retrieved: 150.00
+28/05/2025 7:58:02 am - Service fee retrieved: 150.00
+28/05/2025 7:58:02 am - Item price retrieved: 20.00
+28/05/2025 7:58:02 am - Item price retrieved: 16.00
+28/05/2025 7:59:01 am - New customer inserted with ID: 11100057
+28/05/2025 7:59:01 am - Transaction inserted successfully with ID: 33300040
+28/05/2025 7:59:01 am - Service fee retrieved: 150.00
+28/05/2025 7:59:01 am - Service ID retrieved: 21100002
+28/05/2025 7:59:01 am - Transaction Service Wash, Dry, Fold inserted successfully.
+28/05/2025 7:59:01 am - Item ID retrieved: 22100024
+28/05/2025 7:59:01 am - Order Ariel/Breeze/Tide inserted successfully.
+28/05/2025 7:59:02 am - Item ID retrieved: 22100025
+28/05/2025 7:59:02 am - Order Regular Bleach inserted successfully.
+28/05/2025 7:59:16 am - Service fee retrieved: 150.00
+28/05/2025 7:59:16 am - Service fee retrieved: 150.00
+28/05/2025 7:59:16 am - Item price retrieved: 20.00
+28/05/2025 7:59:16 am - Item price retrieved: 16.00
+28/05/2025 8:01:02 am - Transaction completed for: 33300040
+28/05/2025 8:39:00 am - Service fee retrieved: 140.00
+28/05/2025 8:39:00 am - Service fee retrieved: 140.00
+28/05/2025 8:39:00 am - Item price retrieved: 20.00
+28/05/2025 8:39:44 am - New customer inserted with ID: 11100058
+28/05/2025 8:39:44 am - Transaction inserted successfully with ID: 33300041
+28/05/2025 8:39:44 am - Service fee retrieved: 140.00
+28/05/2025 8:39:44 am - Service ID retrieved: 21100008
+28/05/2025 8:39:44 am - Transaction Service Wash and Dry inserted successfully.
+28/05/2025 8:39:44 am - Item ID retrieved: 22100024
+28/05/2025 8:39:44 am - Order Ariel/Breeze/Tide inserted successfully.
+28/05/2025 8:40:02 am - Transaction completed for: 33300041
+28/05/2025 9:15:49 am - Service fee retrieved: 85.00
+28/05/2025 9:15:49 am - Service fee retrieved: 85.00
+28/05/2025 10:13:23 am - User account inserted successfully for carlosyatos
+28/05/2025 10:13:25 am - User account inserted successfully for Carlos Yatos
+28/05/2025 10:20:44 am - Employee account deleted successfully for 10000032
+28/05/2025 10:28:50 am - Item Plastic bags inserted successfully.
+28/05/2025 10:59:48 am - Service New Service inserted successfully.
+28/05/2025 11:00:46 am - Service deleted successfully for 21100010
+28/05/2025 11:01:57 am - Service New Service inserted successfully.
+28/05/2025 11:05:59 am - Service fee retrieved: 55.00
+28/05/2025 11:05:59 am - Service fee retrieved: 55.00
+28/05/2025 11:05:59 am - Item price retrieved: 20.00
+28/05/2025 11:06:30 am - New customer inserted with ID: 11100059
+28/05/2025 11:06:30 am - Transaction inserted successfully with ID: 33300042
+28/05/2025 11:06:30 am - Service fee retrieved: 55.00
+28/05/2025 11:06:30 am - Service ID retrieved: 21100009
+28/05/2025 11:06:30 am - Transaction Service Wash inserted successfully.
+28/05/2025 11:06:30 am - Item ID retrieved: 22100024
+28/05/2025 11:06:30 am - Order Ariel/Breeze/Tide inserted successfully.
+28/05/2025 11:08:00 am - Service deleted successfully for 21100011
+28/05/2025 11:08:04 am - Service New Service inserted successfully.
+28/05/2025 11:08:15 am - Service deleted successfully for 21100012
+28/05/2025 4:28:47 pm - Service fee retrieved: 150.00
+28/05/2025 4:28:47 pm - Service fee retrieved: 150.00
+28/05/2025 4:28:47 pm - Item price retrieved: 20.00
+28/05/2025 4:28:47 pm - Item price retrieved: 16.00
+28/05/2025 4:28:47 pm - Item price retrieved: 25.00
+28/05/2025 4:29:33 pm - New customer inserted with ID: 11100060
+28/05/2025 4:29:33 pm - Transaction inserted successfully with ID: 33300043
+28/05/2025 4:29:33 pm - Service fee retrieved: 150.00
+28/05/2025 4:29:33 pm - Service ID retrieved: 21100002
+28/05/2025 4:29:33 pm - Transaction Service Wash, Dry, Fold inserted successfully.
+28/05/2025 4:29:33 pm - Item ID retrieved: 22100024
+28/05/2025 4:29:33 pm - Order Ariel/Breeze/Tide inserted successfully.
+28/05/2025 4:29:34 pm - Item ID retrieved: 22100025
+28/05/2025 4:29:34 pm - Order Regular Bleach inserted successfully.
+28/05/2025 4:29:35 pm - Item ID retrieved: 22100028
+28/05/2025 4:29:35 pm - Order Colored Safe Bleach inserted successfully.
+28/05/2025 4:29:37 pm - Service fee retrieved: 150.00
+28/05/2025 4:30:11 pm - Error generating PDF: Conversion from string "F2" to type 'Integer' is not valid.
+28/05/2025 4:35:15 pm - Service fee retrieved: 200.00
+28/05/2025 4:35:15 pm - Service fee retrieved: 200.00
+28/05/2025 4:35:15 pm - Item price retrieved: 20.00
+28/05/2025 4:35:39 pm - New customer inserted with ID: 11100061
+28/05/2025 4:35:39 pm - Transaction inserted successfully with ID: 33300044
+28/05/2025 4:35:39 pm - Service fee retrieved: 200.00
+28/05/2025 4:35:39 pm - Service ID retrieved: 21100006
+28/05/2025 4:35:39 pm - Transaction Service Comforters inserted successfully.
+28/05/2025 4:35:39 pm - Item ID retrieved: 22100024
+28/05/2025 4:35:39 pm - Order Ariel/Breeze/Tide inserted successfully.
+28/05/2025 4:35:42 pm - Service fee retrieved: 200.00
+28/05/2025 4:37:49 pm - Transaction completed for: 33300043
+28/05/2025 4:38:43 pm - Service fee retrieved: 140.00
+28/05/2025 4:38:43 pm - Service fee retrieved: 140.00
+28/05/2025 4:38:43 pm - Item price retrieved: 25.00
+28/05/2025 4:38:43 pm - Item price retrieved: 15.00
+28/05/2025 4:39:08 pm - Service fee retrieved: 140.00
+28/05/2025 4:39:08 pm - Service fee retrieved: 140.00
+28/05/2025 4:39:08 pm - Item price retrieved: 16.00
+28/05/2025 4:39:37 pm - Service fee retrieved: 140.00
+28/05/2025 4:39:37 pm - Service fee retrieved: 140.00
+28/05/2025 4:39:37 pm - Item price retrieved: 20.00
+28/05/2025 4:39:47 pm - Service fee retrieved: 140.00
+28/05/2025 4:39:47 pm - Service fee retrieved: 140.00
+28/05/2025 4:39:47 pm - Item price retrieved: 20.00
+28/05/2025 4:39:59 pm - Service fee retrieved: 140.00
+28/05/2025 4:39:59 pm - Service fee retrieved: 140.00
+28/05/2025 4:39:59 pm - Item price retrieved: 16.00
+28/05/2025 4:50:46 pm - Service fee retrieved: 150.00
+28/05/2025 4:50:46 pm - Service fee retrieved: 150.00
+28/05/2025 4:50:46 pm - Item price retrieved: 20.00
+28/05/2025 4:50:46 pm - Item price retrieved: 16.00
+28/05/2025 4:51:39 pm - New customer inserted with ID: 11100062
+28/05/2025 4:51:39 pm - Transaction inserted successfully with ID: 33300045
+28/05/2025 4:51:39 pm - Service fee retrieved: 150.00
+28/05/2025 4:51:39 pm - Service ID retrieved: 21100002
+28/05/2025 4:51:39 pm - Transaction Service Wash, Dry, Fold inserted successfully.
+28/05/2025 4:51:39 pm - Item ID retrieved: 22100024
+28/05/2025 4:51:39 pm - Order Ariel/Breeze/Tide inserted successfully.
+28/05/2025 4:51:40 pm - Item ID retrieved: 22100025
+28/05/2025 4:51:40 pm - Order Regular Bleach inserted successfully.
+28/05/2025 4:51:43 pm - Service fee retrieved: 150.00
+28/05/2025 6:01:28 pm - Service fee retrieved: 150.00
+28/05/2025 6:01:28 pm - Service fee retrieved: 150.00
+28/05/2025 6:01:28 pm - Item price retrieved: 20.00
+28/05/2025 6:01:57 pm - New customer inserted with ID: 11100063
+28/05/2025 6:01:57 pm - Transaction inserted successfully with ID: 33300046
+28/05/2025 6:01:57 pm - Service fee retrieved: 150.00
+28/05/2025 6:01:57 pm - Service ID retrieved: 21100002
+28/05/2025 6:01:57 pm - Transaction Service Wash, Dry, Fold inserted successfully.
+28/05/2025 6:01:57 pm - Item ID retrieved: 22100024
+28/05/2025 6:01:57 pm - Order Ariel/Breeze/Tide inserted successfully.
+28/05/2025 6:01:59 pm - Service fee retrieved: 150.00
+28/05/2025 6:13:29 pm - Service fee retrieved: 150.00
+28/05/2025 6:13:29 pm - Service fee retrieved: 150.00
+28/05/2025 6:13:29 pm - Item price retrieved: 20.00
+28/05/2025 6:14:19 pm - New customer inserted with ID: 11100064
+28/05/2025 6:14:19 pm - Transaction inserted successfully with ID: 33300047
+28/05/2025 6:14:19 pm - Service fee retrieved: 150.00
+28/05/2025 6:14:19 pm - Service ID retrieved: 21100002
+28/05/2025 6:14:19 pm - Transaction Service Wash, Dry, Fold inserted successfully.
+28/05/2025 6:14:19 pm - Item ID retrieved: 22100024
+28/05/2025 6:14:19 pm - Order Ariel/Breeze/Tide inserted successfully.
+28/05/2025 6:14:22 pm - Service fee retrieved: 150.00
+28/05/2025 6:58:51 pm - Error updating user data: Fatal error encountered during command execution
+28/05/2025 7:05:00 pm - Admin data updated successfully for Admin Account
+28/05/2025 7:15:28 pm - Admin ID retrieved: 2100001
+28/05/2025 7:21:40 pm - Admin ID retrieved: 2100001
+28/05/2025 7:21:40 pm - Admin full name retrieved: Admin Account
+28/05/2025 7:30:53 pm - Admin ID retrieved: 2100001
+28/05/2025 7:30:53 pm - Admin full name retrieved: Admin Account
+28/05/2025 7:42:24 pm - Admin ID retrieved: 2100001
+28/05/2025 7:42:24 pm - Admin full name retrieved: Admin Account
+28/05/2025 7:42:39 pm - Service fee retrieved: 150.00
+28/05/2025 7:42:39 pm - Service fee retrieved: 150.00
+28/05/2025 7:42:39 pm - Item price retrieved: 16.00
+28/05/2025 8:00:57 pm - Admin ID retrieved: 2100001
+28/05/2025 8:00:57 pm - Admin full name retrieved: Admin Account
+28/05/2025 8:02:25 pm - Admin ID retrieved: 2100001
+28/05/2025 8:02:25 pm - Admin full name retrieved: Admin Account
+28/05/2025 8:03:50 pm - Admin ID retrieved: 2100001
+28/05/2025 8:03:50 pm - Admin full name retrieved: Admin Account
+28/05/2025 8:48:19 pm - Admin ID retrieved: 2100001
+28/05/2025 8:48:19 pm - Admin full name retrieved: Admin Account
+28/05/2025 8:51:13 pm - Admin ID retrieved: 2100001
+28/05/2025 8:51:13 pm - Admin full name retrieved: Admin Account
+28/05/2025 8:51:52 pm - Service fee retrieved: 200.00
+28/05/2025 8:51:52 pm - Service fee retrieved: 200.00
+28/05/2025 8:51:52 pm - Item price retrieved: 20.00
+28/05/2025 8:52:34 pm - New customer inserted with ID: 11100065
+28/05/2025 8:52:34 pm - Transaction inserted successfully with ID: 33300048
+28/05/2025 8:52:34 pm - Service fee retrieved: 200.00
+28/05/2025 8:52:34 pm - Service ID retrieved: 21100006
+28/05/2025 8:52:34 pm - Transaction Service Comforters inserted successfully.
+28/05/2025 8:52:34 pm - Item ID retrieved: 22100024
+28/05/2025 8:52:34 pm - Order Ariel/Breeze/Tide inserted successfully.
+28/05/2025 8:52:36 pm - Service fee retrieved: 200.00
+28/05/2025 8:53:26 pm - Transaction completed for: 33300048
+28/05/2025 8:54:42 pm - Admin ID retrieved: 2100001
+28/05/2025 8:54:42 pm - Admin full name retrieved: Admin Account
+28/05/2025 8:56:02 pm - Admin ID retrieved: 2100001
+28/05/2025 8:56:02 pm - Admin full name retrieved: Admin Account
+28/05/2025 10:51:11 pm - Admin ID retrieved: 2100001
+28/05/2025 10:51:11 pm - Admin full name retrieved: Admin Account
+28/05/2025 10:52:51 pm - Service fee retrieved: 200.00
+28/05/2025 10:52:51 pm - Service fee retrieved: 200.00
+28/05/2025 10:52:51 pm - Item price retrieved: 25.00
