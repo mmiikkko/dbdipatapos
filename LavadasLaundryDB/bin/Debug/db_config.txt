@@ -1,4 +1,4 @@
-server=192.168.10.121
+server=192.168.156.8
 uid=root
-password= 
+password=
 database=lavadas

@@ -23,12 +23,12 @@ Partial Class OwnerPage
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(OwnerPage))
-        Dim ChartArea1 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend1 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series1 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
-        Dim ChartArea2 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
-        Dim Legend2 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
-        Dim Series2 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea11 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend11 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series11 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
+        Dim ChartArea12 As System.Windows.Forms.DataVisualization.Charting.ChartArea = New System.Windows.Forms.DataVisualization.Charting.ChartArea()
+        Dim Legend12 As System.Windows.Forms.DataVisualization.Charting.Legend = New System.Windows.Forms.DataVisualization.Charting.Legend()
+        Dim Series12 As System.Windows.Forms.DataVisualization.Charting.Series = New System.Windows.Forms.DataVisualization.Charting.Series()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.reportsPage = New System.Windows.Forms.TabPage()
@@ -450,6 +450,7 @@ Partial Class OwnerPage
         Me.lblDate = New System.Windows.Forms.Label()
         Me.Label160 = New System.Windows.Forms.Label()
         Me.lblSmallUserID = New System.Windows.Forms.Label()
+        Me.btnDeleteTransac = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabControl1.SuspendLayout()
         Me.reportsPage.SuspendLayout()
@@ -771,16 +772,16 @@ Partial Class OwnerPage
         '
         Me.chService.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.chService.BackColor = System.Drawing.Color.WhiteSmoke
-        ChartArea1.Name = "ChartArea1"
-        Me.chService.ChartAreas.Add(ChartArea1)
-        Legend1.Name = "Legend1"
-        Me.chService.Legends.Add(Legend1)
+        ChartArea11.Name = "ChartArea1"
+        Me.chService.ChartAreas.Add(ChartArea11)
+        Legend11.Name = "Legend1"
+        Me.chService.Legends.Add(Legend11)
         Me.chService.Location = New System.Drawing.Point(800, 76)
         Me.chService.Name = "chService"
-        Series1.ChartArea = "ChartArea1"
-        Series1.Legend = "Legend1"
-        Series1.Name = "Series1"
-        Me.chService.Series.Add(Series1)
+        Series11.ChartArea = "ChartArea1"
+        Series11.Legend = "Legend1"
+        Series11.Name = "Series1"
+        Me.chService.Series.Add(Series11)
         Me.chService.Size = New System.Drawing.Size(705, 336)
         Me.chService.TabIndex = 28
         Me.chService.Text = "Chart1"
@@ -801,16 +802,16 @@ Partial Class OwnerPage
         '
         Me.chItems.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.chItems.BackColor = System.Drawing.Color.WhiteSmoke
-        ChartArea2.Name = "ChartArea1"
-        Me.chItems.ChartAreas.Add(ChartArea2)
-        Legend2.Name = "Legend1"
-        Me.chItems.Legends.Add(Legend2)
+        ChartArea12.Name = "ChartArea1"
+        Me.chItems.ChartAreas.Add(ChartArea12)
+        Legend12.Name = "Legend1"
+        Me.chItems.Legends.Add(Legend12)
         Me.chItems.Location = New System.Drawing.Point(35, 76)
         Me.chItems.Name = "chItems"
-        Series2.ChartArea = "ChartArea1"
-        Series2.Legend = "Legend1"
-        Series2.Name = "Series1"
-        Me.chItems.Series.Add(Series2)
+        Series12.ChartArea = "ChartArea1"
+        Series12.Legend = "Legend1"
+        Series12.Name = "Series1"
+        Me.chItems.Series.Add(Series12)
         Me.chItems.Size = New System.Drawing.Size(705, 336)
         Me.chItems.TabIndex = 25
         Me.chItems.Text = "Chart1"
@@ -4144,6 +4145,7 @@ Partial Class OwnerPage
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.panPendingOrdersss.BackColor = System.Drawing.SystemColors.Info
         Me.panPendingOrdersss.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.panPendingOrdersss.Controls.Add(Me.btnDeleteTransac)
         Me.panPendingOrdersss.Controls.Add(Me.lblProcessedBy)
         Me.panPendingOrdersss.Controls.Add(Me.Label19)
         Me.panPendingOrdersss.Controls.Add(Me.lblPendingTransacDateAdded)
@@ -5545,6 +5547,22 @@ Partial Class OwnerPage
         Me.lblSmallUserID.TabIndex = 22
         Me.lblSmallUserID.Text = "user ID:"
         '
+        'btnDeleteTransac
+        '
+        Me.btnDeleteTransac.BackColor = System.Drawing.Color.Black
+        Me.btnDeleteTransac.FlatAppearance.BorderColor = System.Drawing.Color.Red
+        Me.btnDeleteTransac.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.btnDeleteTransac.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDeleteTransac.ForeColor = System.Drawing.Color.Red
+        Me.btnDeleteTransac.Location = New System.Drawing.Point(16, 616)
+        Me.btnDeleteTransac.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.btnDeleteTransac.Name = "btnDeleteTransac"
+        Me.btnDeleteTransac.Size = New System.Drawing.Size(132, 48)
+        Me.btnDeleteTransac.TabIndex = 27
+        Me.btnDeleteTransac.Text = "Delete"
+        Me.btnDeleteTransac.UseVisualStyleBackColor = False
+        Me.btnDeleteTransac.Visible = False
+        '
         'OwnerPage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
@@ -6085,4 +6103,5 @@ Partial Class OwnerPage
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label22 As Label
     Friend WithEvents lblTotalCustomers As Label
+    Friend WithEvents btnDeleteTransac As Button
 End Class

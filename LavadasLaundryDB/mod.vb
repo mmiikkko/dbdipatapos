@@ -661,7 +661,6 @@ Module modDB
                 WriteLog("New customer inserted with ID: " & newCustomerId)
             End Using
         Catch ex As Exception
-            MessageBox.Show("Error: " & ex.Message, "Insert Failed", MessageBoxButtons.OK, MessageBoxIcon.Error)
             WriteLog("Error inserting item: " & ex.Message)
             Return False
         Finally
@@ -690,16 +689,16 @@ Module modDB
 
                 If cmd.ExecuteNonQuery() > 0 Then
                     WriteLog("Item " & item_name & " inserted successfully.")
-                    MessageBox.Show("Item inserted successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+
                     Return True
                 Else
                     WriteLog("Insert failed for item: " & item_name)
-                    MessageBox.Show("Insert failed.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+
                     Return False
                 End If
             End Using
         Catch ex As Exception
-            MessageBox.Show("Error: " & ex.Message, "Insert Failed", MessageBoxButtons.OK, MessageBoxIcon.Error)
+
             WriteLog("Error inserting item: " & ex.Message)
             Return False
         Finally
@@ -886,7 +885,6 @@ Module modDB
                 WriteLog("Transaction inserted successfully with ID: " & newTransactionId)
             End Using
         Catch ex As Exception
-            MessageBox.Show("Error: " & ex.Message, "Insert Failed", MessageBoxButtons.OK, MessageBoxIcon.Error)
             WriteLog("Error inserting transaction: " & ex.Message)
             Return False
         Finally
@@ -896,6 +894,54 @@ Module modDB
         Return newTransactionId
     End Function
 
+    Public Function BulkInsertTestData()
+        For i As Integer = 1 To 135
+            Try
+                ' Randomize test data
+                Dim user_id As Integer = 10000001 ' Assume test user ID
+                Dim first_name As String = "TestFName" & i
+                Dim last_name As String = "TestLName" & i
+                Dim middle_ini As String = "M"
+                Dim sex As String = If(i Mod 2 = 0, "Male", "Female")
+                Dim contact As String = "0917123456" & (i Mod 10)
+                Dim province As String = "TestProvince"
+                Dim city As String = "TestCity"
+                Dim postal_code As String = "1234"
+                Dim payment_received As Decimal = 100 + i
+                Dim payment_method As String = If(i Mod 2 = 0, "Cash", "GCash")
+
+                Dim customer_id As Integer = InsertCustomerData(first_name, last_name, middle_ini, sex, contact, city, province, postal_code)
+                Dim transaction_id As Integer = InsertTransaction(customer_id, user_id, payment_received, payment_method)
+
+                ' Fixed service details
+                Dim service_name As String = "Comforters"
+                Dim service_category As String = "Full Service"
+                Dim is_colored As Boolean = (i Mod 2 = 0)
+                Dim sub_total As Decimal = GetSubTotal(service_name, service_category)
+                Dim service_id As Integer = GetServiceID(service_name, service_category)
+                Dim note As String = "Automated Test Entry #" & i
+                Dim load_weight As Integer = 5 + (i Mod 5)
+
+                InsertTransactionService(transaction_id, user_id, sub_total, service_id, is_colored, load_weight, note, service_name)
+
+                ' Sample add-ons
+                Dim addons As String() = {"Ariel/Breeze/Tide", "Regular Bleach", "Colored Safe Bleach", "Fabric Conditioner"}
+                For j As Integer = 0 To addons.Length - 1
+                    Dim quantity As Integer = If(j Mod 2 = 0, 1, 0)
+                    If quantity > 0 Then
+                        InsertTransactionOrders(transaction_id, user_id, quantity, note, addons(j))
+                    End If
+                Next
+
+                WriteLog("Test Transaction " & i & " inserted successfully.")
+
+            Catch ex As Exception
+                WriteLog("Error in transaction loop " & i & ": " & ex.Message)
+            End Try
+        Next
+
+
+    End Function
 
 
     Public Function InsertTransactionOrders(ByVal transaction_id As Integer, ByVal user_id As Integer, ByVal quantity As Integer, ByVal note As String, ByVal item_name As String)
@@ -925,16 +971,16 @@ Module modDB
 
                 If cmd.ExecuteNonQuery() > 0 Then
                     WriteLog("Order " & item_name & " inserted successfully.")
-                    MessageBox.Show("Transaction Service inserted successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
+
                     Return True
                 Else
                     WriteLog("Insert failed for order: " & item_name)
-                    MessageBox.Show("Insert failed.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+
                     Return False
                 End If
             End Using
         Catch ex As Exception
-            MessageBox.Show("Error: " & ex.Message, "Insert Failed", MessageBoxButtons.OK, MessageBoxIcon.Error)
+
             WriteLog("Error inserting transaction order: " & ex.Message)
             Return False
         Finally
@@ -969,7 +1015,7 @@ Module modDB
                 End If
             End Using
         Catch ex As Exception
-            MessageBox.Show("Error: " & ex.Message, "Insert Failed", MessageBoxButtons.OK, MessageBoxIcon.Error)
+
             WriteLog("Error inserting transaction: " & ex.Message)
             Return False
         Finally
@@ -1067,7 +1113,7 @@ Module modDB
 
         Catch ex As Exception
             WriteLog("Error retrieving service ID: " & ex.Message)
-            MessageBox.Show("Error retrieving service ID: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+
         Finally
             If conn.State = ConnectionState.Open Then conn.Close()
         End Try
@@ -1324,16 +1370,16 @@ Module modDB
         Return item_id
     End Function
 
-    Public Function GetSubTotal(ByVal service_name As String, ByVal service_category As String)
-        Dim serviceId As Decimal = -1
+    Public Function GetSubTotal(ByVal service_name As String, ByVal service_category As String) As Decimal
+        Dim subTotal As Decimal = -1
         Try
             openConn(db_name)
 
             Dim query As String = "
-            SELECT service_fee 
-            FROM service 
-            WHERE service_name = @service_name AND service_category = @service_category 
-            LIMIT 1;"
+        SELECT service_fee 
+        FROM service 
+        WHERE service_name = @service_name AND service_category = @service_category 
+        LIMIT 1;"
 
             Using cmd As New MySqlCommand(query, conn)
                 cmd.Parameters.AddWithValue("@service_name", service_name)
@@ -1341,23 +1387,24 @@ Module modDB
 
                 Dim result As Object = cmd.ExecuteScalar()
 
-                If result IsNot Nothing Then
-                    serviceId = Convert.ToDecimal(result)
-                    WriteLog("Service fee retrieved: " & serviceId)
+                If result IsNot Nothing AndAlso Not IsDBNull(result) Then
+                    subTotal = Convert.ToDecimal(result)
+                    WriteLog("✅ Service fee retrieved: " & subTotal.ToString("F2") & " | " & service_name & " (" & service_category & ")")
                 Else
-                    WriteLog("Service not found: " & service_name & " - " & service_category)
+                    WriteLog("⚠️ Service not found or fee is NULL for: " & service_name & " (" & service_category & ")")
                 End If
             End Using
 
         Catch ex As Exception
-            WriteLog("Error retrieving service ID: " & ex.Message)
-            MessageBox.Show("Error retrieving service ID: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            WriteLog("❌ Error retrieving service fee: " & ex.Message)
+            MessageBox.Show("Error retrieving service fee: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Finally
             If conn.State = ConnectionState.Open Then conn.Close()
         End Try
 
-        Return serviceId
+        Return subTotal ' Will be -1 if service not found
     End Function
+
 
     Public Function GetItemPrice(ByVal item_name As String)
 
@@ -1464,6 +1511,32 @@ Module modDB
         End Try
     End Function
 
+    Public Function DeleteTransaction(ByVal transaction_id As Integer)
+        Try
+            openConn(db_name)
+
+            ' Hash password before updating
+            Dim query As String = "DELETE FROM transactions WHERE transaction_id = @transaction_id"
+
+            cmd = New MySqlCommand(query, conn)
+
+            cmd.Parameters.AddWithValue("@transaction_id", transaction_id)
+
+            If cmd.ExecuteNonQuery() > 0 Then
+                WriteLog("Transaction deleted for: " & transaction_id)
+                Return True
+            Else
+                WriteLog("Transaction deletion failed: " & transaction_id)
+                Return False
+            End If
+        Catch ex As Exception
+            WriteLog("Error deleting transaction data: " & ex.Message)
+            Return False
+        Finally
+            If conn.State = ConnectionState.Open Then conn.Close()
+        End Try
+    End Function
+
     Public Function CheckStock(itemName As String, requiredQty As Integer) As Boolean
         Try
             openConn(db_name)
@@ -1548,11 +1621,10 @@ Module modDB
             openConn(db_name)
 
             Dim query As String = "
-            SELECT full_name FROM (
+        SELECT full_name FROM (
             SELECT CONCAT(a.admin_fname, ' ', a.admin_lname) AS full_name, COUNT(t.transaction_id) AS transactions_completed
             FROM transactions t
             JOIN admins a ON t.user_id = a.user_id
-            WHERE t.completion_date >= CURDATE() - INTERVAL 7 DAY
             GROUP BY t.user_id
 
             UNION ALL
@@ -1560,12 +1632,11 @@ Module modDB
             SELECT CONCAT(e.employee_fname, ' ', e.employee_lname) AS full_name, COUNT(t.transaction_id) AS transactions_completed
             FROM transactions t
             JOIN employees e ON t.user_id = e.user_id
-            WHERE t.completion_date >= CURDATE() - INTERVAL 7 DAY
             GROUP BY t.user_id
-            ) AS combined
-            ORDER BY transactions_completed DESC
-            LIMIT 1;
-            "
+        ) AS combined
+        ORDER BY transactions_completed DESC
+        LIMIT 1;
+        "
 
             Using cmd As New MySqlCommand(query, conn)
                 Dim result As Object = cmd.ExecuteScalar()
@@ -1585,18 +1656,18 @@ Module modDB
     End Function
 
 
+
     Public Function GetServiceTimesAvailed() As String
         Try
             openConn(db_name)
 
             Dim query As String = "
-            SELECT s.service_name, COUNT(ts.service_id) AS times_availed
-            FROM transactions_services ts
-            JOIN service s ON ts.service_id = s.service_id
-            WHERE ts.completion_date >= CURDATE() - INTERVAL 7 DAY
-            GROUP BY ts.service_id
-            ORDER BY times_availed DESC
-            LIMIT 1;
+        SELECT s.service_name, COUNT(ts.service_id) AS times_availed
+        FROM transactions_services ts
+        JOIN service s ON ts.service_id = s.service_id
+        GROUP BY ts.service_id
+        ORDER BY times_availed DESC
+        LIMIT 1;
         "
 
             Using cmd As New MySqlCommand(query, conn)
@@ -1619,17 +1690,15 @@ Module modDB
         End Try
     End Function
 
+
     Public Function GetTotalCustomersLastWeek() As String
         Dim totalCustomer As Integer = 0
         Try
             openConn(db_name)
 
-            ' MySQL query to get distinct customers from last week's Monday to Sunday
             Dim query As String = "
-            SELECT COUNT(DISTINCT customer_id) AS total_customers
-            FROM transactions
-            WHERE transaction_date >= DATE_SUB(CURDATE(), INTERVAL (WEEKDAY(CURDATE()) + 7) DAY)
-              AND transaction_date < DATE_SUB(CURDATE(), INTERVAL WEEKDAY(CURDATE()) DAY);
+        SELECT COUNT(DISTINCT customer_id) AS total_customers
+        FROM transactions;
         "
 
             Using cmd As New MySqlCommand(query, conn)
@@ -1644,13 +1713,14 @@ Module modDB
             End Using
 
         Catch ex As Exception
-            WriteLog("Error in GetTotalCustomersLastWeek: " & ex.Message)
+            WriteLog("Error in GetTotalCustomersAllTime: " & ex.Message)
             Return "Error"
         Finally
             If conn.State = ConnectionState.Open Then conn.Close()
         End Try
 
         Return totalCustomer.ToString()
+
     End Function
 
 
@@ -1659,13 +1729,12 @@ Module modDB
             openConn(db_name)
 
             Dim query As String = "
-            SELECT i.item_name, COUNT(to2.item_id) AS times_availed
-            FROM transactions_orders to2
-            JOIN inventory i ON to2.item_id = i.item_id
-            WHERE to2.completion_date >= CURDATE() - INTERVAL 7 DAY
-            GROUP BY to2.item_id
-            ORDER BY times_availed DESC
-            LIMIT 1;
+        SELECT i.item_name, COUNT(to2.item_id) AS times_availed
+        FROM transactions_orders to2
+        JOIN inventory i ON to2.item_id = i.item_id
+        GROUP BY to2.item_id
+        ORDER BY times_availed DESC
+        LIMIT 1;
         "
 
             Using cmd As New MySqlCommand(query, conn)
@@ -1689,6 +1758,7 @@ Module modDB
     End Function
 
 
+
     Public Function GetServices() As Dictionary(Of String, Integer)
         Dim results As New Dictionary(Of String, Integer)
 
@@ -1698,7 +1768,6 @@ Module modDB
             SELECT s.service_name, COUNT(*) AS total_availed
             FROM transactions_services ts
             INNER JOIN service s ON s.service_id = ts.service_id
-            WHERE ts.completion_date >= CURDATE() - INTERVAL 7 DAY
             GROUP BY s.service_name
             ORDER BY total_availed DESC
             LIMIT 5;
@@ -1728,7 +1797,6 @@ Module modDB
             SELECT i.item_name, COUNT(*) AS total_availed
             FROM transactions_orders ts
             INNER JOIN inventory i ON i.item_id = ts.item_id
-            WHERE ts.completion_date >= CURDATE() - INTERVAL 7 DAY
             GROUP BY i.item_name
             ORDER BY total_availed DESC
             LIMIT 5;

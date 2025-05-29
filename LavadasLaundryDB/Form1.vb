@@ -300,5 +300,4 @@ Public Class LoginPage
         ConnectToDatabase()
     End Sub
 
-
 End Class

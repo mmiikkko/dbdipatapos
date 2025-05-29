@@ -793,7 +793,7 @@ Public Class OwnerPage
                 lblTotal.Visible = False
                 lblDateAdded.Visible = False
 
-
+                MessageBox.Show("Transaction completed!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
             Catch ex As Exception
                 MessageBox.Show("An error occurred: " & ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
             End Try
@@ -2223,7 +2223,7 @@ Public Class OwnerPage
             btnFinish.Visible = True
             btnCancel.Visible = True
             panPendingOrdersss.Enabled = True
-
+            btnDeleteTransac.Visible = True
             MessageBox.Show("Transaction data selected.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information)
 
         Else
@@ -2459,6 +2459,7 @@ Public Class OwnerPage
         lblFinishedUser.Visible = False
         lblFinishedDate.Visible = False
         panFinished.Enabled = False
+
     End Sub
 
     Private Sub btnFilter_Click(sender As Object, e As EventArgs) Handles btnFilter.Click
@@ -2557,4 +2558,55 @@ Public Class OwnerPage
         numAddon4.Value = +1
     End Sub
 
+    Private Sub btnDeleteTransac_Click(sender As Object, e As EventArgs) Handles btnDeleteTransac.Click
+        Dim result As DialogResult = MessageBox.Show("Are you sure to delete this transaction?", "Deletion", MessageBoxButtons.YesNo, MessageBoxIcon.Warning)
+
+        If result = DialogResult.Yes Then
+            Dim transaction_id As Integer = Integer.Parse(lblPendingOrderID.Text.Trim())
+
+            CancelledTransaction(transaction_id)
+            lblPendingOrderID.Text = ""
+            lblPendingFullName.Text = ""
+            lblPendingContact.Text = ""
+            lblPendingService.Text = ""
+            lblPaymentReceived.Text = ""
+            lblPendingChange.Text = ""
+            lblPendingTotal.Text = ""
+            lblProcessedBy.Text = ""
+            lblPendingTransacDateAdded.Text = ""
+
+
+            lblPendingAddon1.Text = ""
+            lblPendingAddon2.Text = ""
+            lblPendingAddon3.Text = ""
+            lblPendingAddon4.Text = ""
+
+            lblPendingAddon1.Visible = False
+            lblPendingAddon2.Visible = False
+            lblPendingAddon3.Visible = False
+            lblPendingAddon4.Visible = False
+
+
+            lblPendingOrderID.Visible = False
+            lblPendingFullName.Visible = False
+            lblPendingContact.Visible = False
+            lblPendingService.Visible = False
+            lblPaymentReceived.Visible = False
+            lblPendingTotal.Visible = False
+            lblPendingChange.Visible = False
+            lblPendingChange.Visible = False
+            lblProcessedBy.Visible = False
+            lblPendingTransacDateAdded.Visible = False
+            panPendingOrdersss.Enabled = False
+
+            LoadToDGV(pendings_query, dgvPending, db_name)
+            MessageBox.Show("Transaction Deleted", "Delete", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        End If
+
+
+    End Sub
+
+    Private Sub Button3_Click_1(sender As Object, e As EventArgs)
+        BulkInsertTestData()
+    End Sub
 End Class
